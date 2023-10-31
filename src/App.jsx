@@ -21,13 +21,9 @@ function App() {
             alt="date"
             className="logo-date"
           ></img>
-
           <div>
-            <p>
-              Présentation des versions <b>Short Term DCM</b> et{" "}
-              <b>Etudes Exploitation</b> du
-              <b>programme</b> OSRD
-            </p>{" "}
+            <p> Présentation des versions <b>Short Term DCM</b> et <b>Etudes Exploitation</b> du <b>programme</b> <span style={{ color: "#786ABF" }}>OSRD</span>
+            </p>
           </div>
           <div>
             <p>(+diffusion en ligne)</p>
@@ -35,26 +31,37 @@ function App() {
         </div>
       </section>
       <section className="section-two">
-        <div>
-          Design <span style={{ color: "#000000" }}>your Journey</span>
+        <div className="part-one">
+        <br/>
+          <h2>
+            Design <span style={{ color: "#000000" }}>your Journey</span>
+         </h2>
+          <p>
+            34 rue du commandant René Mouchotte <br/> de 14h à 16h <br/> <SiMetrodeparis /><span> Montparnasse Bienvenue</span>
+          </p>
+          <p>75014 Paris</p>
+          <br/>
         </div>
-        <div>34 rue du commandant René Mouchotte</div>
-        <div>de 14h à 16h</div>
-        <div>
-          <SiMetrodeparis />
-          Montparnasse Bienvenue
+         <div className="part-two">
+         <br/>
+          <h2>Le lieu</h2>
+          <br/>
+          <img src="./assets/plan/OSRD-kickoff-programme-plan-event.svg" alt="plan" className="logo-place"></img>
         </div>
-        <div>75014 Paris</div>
-        <div>Le lieu</div>
-        <img
-          src="./assets/plan/OSRD-kickoff-programme-plan-event.svg"
-          alt="plan"
-        ></img>
       </section>
-      <section className="section-three">SECTION 3</section>
+      <section className="section-three">
+        <br/>
+        <h2>Les conférences</h2>
+          <p style={{ color: "black" }}>Au programme, de 14h à 16h, une série de conférences de 5 minutes chronos pour vous montrer les différents aspects d'OSRD.</p>
+          <time>14:00 - 16:00</time>
+          <div className="centered-div">
+            <p><span style={{ color: "#000000" }}>14:00</span> - Cérémonie d'ouverture et introduction au prgramme OSRD <br/> <b>Loïc Hamelin</b> - Directeur du programme OSRD</p>
+            <p><span style={{ color: "#000000" }}>14:05</span> - Conférence principale Short Term DCM <br/> <b>Loïc Hamelin</b> - Directeur du programme OSRD <br/> <b>Loïc Hamelin</b> - Directeur du programme OSRD <br/> <b>Loïc Hamelin</b> - Directeur du programme OSRD <br/> <b>Loïc Hamelin</b> - Directeur du programme OSRD <br/> <b>Loïc Hamelin</b> - Directeur du programme OSRD <br/> <b>Loïc Hamelin</b> - Directeur du programme OSRD</p>
+            <p><span style={{ color: "#000000" }}>15:45</span> - Conclusion et avenir du projet au sein de SNCF Réseau <br/> <b>Loïc Hamelin</b> - Directeur du programme OSRD</p>
+          </div>
+      </section>
       <section className="section-four">
         <div className="container-four">
-          {" "}
           <div>
             <h2>La suite</h2>
           </div>
@@ -64,7 +71,6 @@ function App() {
               cliquez sur :
             </p>
             <a href="https://osrd.fr/fr/">
-              {" "}
               <img
                 src="/assets/logos/OSRD-kickoff-programme-logo-OSRD.svg"
                 alt="osrd-logo"
