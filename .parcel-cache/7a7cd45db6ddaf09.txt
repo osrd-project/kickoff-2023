@@ -243,7 +243,7 @@
 61/home/romain/osrd/kickoff/kickoff-2023/node_modules/js-tokens1699006564889026262 1
 75/home/romain/osrd/kickoff/kickoff-2023/node_modules/ordered-binary/index.js1699006563953999000 0
 71/home/romain/osrd/kickoff/kickoff-2023/node_modules/ordered-binary/dist1699006565145022843 1
-88/home/romain/osrd/kickoff/kickoff-2023/node_modules/ordered-binary/assets/powers-dre.png1699006563953999000 0
+88/home/romain/osrd/kickoff/kickoff-2023/node_modules/ordered-binary./powers-dre.png1699006563953999000 0
 80/home/romain/osrd/kickoff/kickoff-2023/node_modules/ordered-binary/tests/test.js1699006563953999000 0
 72/home/romain/osrd/kickoff/kickoff-2023/node_modules/ordered-binary/tests1699006565145022843 1
 101/home/romain/osrd/kickoff/kickoff-2023/node_modules/ordered-binary/.nyc_output/processinfo/index.json1699006563953999000 0
@@ -4403,7 +4403,7 @@
 91/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src/ParcelConfig.schema.js1699006558073999000 0
 94/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src/requests/ConfigRequest.js1699006558073999000 0
 99/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src/requests/WriteBundleRequest.js1699006558073999000 0
-73/home/romain/osrd/kickoff/kickoff-2023/node_modules/ordered-binary/assets1699006565145022843 1
+73/home/romain/osrd/kickoff/kickoff-2023/node_modules/ordered-binary.1699006565145022843 1
 98/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src/requests/ValidationRequest.js1699006558073999000 0
 69/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/graph/src1699006565113023271 1
 94/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src/requests/TargetRequest.js1699006558073999000 0

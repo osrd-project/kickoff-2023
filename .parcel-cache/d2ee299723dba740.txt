@@ -1,9 +1,25 @@
-4420
-52/home/romain/osrd/kickoff/kickoff-2023/public/assets1699007073930271226 1
-45/home/romain/osrd/kickoff/kickoff-2023/public1699007073930271226 1
+4468
+105/home/romain/osrd/kickoff/kickoff-2023/public/assets/logo-kickoff/OSRD-kickoff-programme-date-kickoff.svg1698412604000000000 0
+93/home/romain/osrd/kickoff/kickoff-2023/public/assets/logos/OSRD-kickoff-programme-logo-UE.svg1698413214000000000 0
+95/home/romain/osrd/kickoff/kickoff-2023/public/assets/logos/OSRD-kickoff-programme-logo-SNCF.svg1698413236000000000 0
+95/home/romain/osrd/kickoff/kickoff-2023/public/assets/logos/OSRD-kickoff-programme-logo-GOUV.svg1698413254000000000 0
+58/home/romain/osrd/kickoff/kickoff-2023/public/assets/logos1698413254000000000 1
+102/home/romain/osrd/kickoff/kickoff-2023/public/assets/pictos-boutons/OSRD-kickoff-programme-plan-02.svg1698412710000000000 0
+102/home/romain/osrd/kickoff/kickoff-2023/public/assets/pictos-boutons/OSRD-kickoff-programme-plan-03.svg1698412732000000000 0
+100/home/romain/osrd/kickoff/kickoff-2023/public/assets/pictos-boutons/OSRD-kickoff-programme-metro.svg1698412826000000000 0
+101/home/romain/osrd/kickoff/kickoff-2023/public/assets/pictos-boutons/OSRD-kickoff-programme-player.svg1698412648000000000 0
+67/home/romain/osrd/kickoff/kickoff-2023/public/assets/pictos-boutons1698412826000000000 1
+60/home/romain/osrd/kickoff/kickoff-2023/public/assets/visuels1698413150000000000 1
+52/home/romain/osrd/kickoff/kickoff-2023/public/assets1699008550087575635 1
+45/home/romain/osrd/kickoff/kickoff-2023/public1699007842668147796 1
+92/home/romain/osrd/kickoff/kickoff-2023/dist/OSRD-kickoff-programme-date-kickoff.cee698e7.svg1699008611582855358 0
+93/home/romain/osrd/kickoff/kickoff-2023/dist/OSRD-kickoff-programme-titre-kickoff.673f7ddf.svg1699008611686854133 0
+87/home/romain/osrd/kickoff/kickoff-2023/dist/OSRD-kickoff-programme-logo-UE.5471af58.svg1699008611582855358 0
+66/home/romain/osrd/kickoff/kickoff-2023/dist/index.75a90472.css.map1699008611578855405 0
 85/home/romain/osrd/kickoff/kickoff-2023/node_modules/postcss-value-parser/lib/parse.js1697613784028000000 0
 84/home/romain/osrd/kickoff/kickoff-2023/node_modules/postcss-value-parser/lib/walk.js1697613784028000000 0
 87/home/romain/osrd/kickoff/kickoff-2023/node_modules/postcss-value-parser/lib/index.d.ts1697613784028000000 0
+106/home/romain/osrd/kickoff/kickoff-2023/public/assets/logo-kickoff/OSRD-kickoff-programme-titre-kickoff.svg1698412552000000000 0
 76/home/romain/osrd/kickoff/kickoff-2023/node_modules/postcss-value-parser/lib1699006565145022843 1
 82/home/romain/osrd/kickoff/kickoff-2023/node_modules/postcss-value-parser/README.md1697613784028000000 0
 80/home/romain/osrd/kickoff/kickoff-2023/node_modules/postcss-value-parser/LICENSE1697613784028000000 0
@@ -22,6 +38,7 @@
 60/home/romain/osrd/kickoff/kickoff-2023/node_modules/posthtml1699006565065023912 1
 79/home/romain/osrd/kickoff/kickoff-2023/node_modules/regenerator-runtime/path.js1698674440148999000 0
 79/home/romain/osrd/kickoff/kickoff-2023/node_modules/regenerator-runtime/LICENSE1698674440148999000 0
+105/home/romain/osrd/kickoff/kickoff-2023/public/assets/logo-kickoff/OSRD-kickoff-programme-logo-kickoff.svg1698412502000000000 0
 71/home/romain/osrd/kickoff/kickoff-2023/node_modules/regenerator-runtime1699006565081023698 1
 92/home/romain/osrd/kickoff/kickoff-2023/node_modules/lightningcss-linux-x64-musl/package.json1699006562114000000 0
 89/home/romain/osrd/kickoff/kickoff-2023/node_modules/lightningcss-linux-x64-musl/README.md1699006562114000000 0
@@ -65,6 +82,7 @@
 74/home/romain/osrd/kickoff/kickoff-2023/node_modules/entities/lib/decode.js1699006563992000000 0
 80/home/romain/osrd/kickoff/kickoff-2023/node_modules/entities/lib/encode.d.ts.map1699006563992000000 0
 79/home/romain/osrd/kickoff/kickoff-2023/node_modules/entities/lib/index.d.ts.map1699006563992000000 0
+105/home/romain/osrd/kickoff/kickoff-2023/public/assets/visuels/OSRD-kickoff-programme-sommaire-boule-03.svg1698413050000000000 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/svgo/lib/svgo/css-class-list.js1698674445963999000 0
 89/home/romain/osrd/kickoff/kickoff-2023/node_modules/svgo/lib/svgo/css-select-adapter.d.ts1698674445963999000 0
 68/home/romain/osrd/kickoff/kickoff-2023/node_modules/svgo/lib/svgo.js1698674445963999000 0
@@ -145,6 +163,7 @@
 59/home/romain/osrd/kickoff/kickoff-2023/node_modules/js-yaml1699006565045024178 1
 73/home/romain/osrd/kickoff/kickoff-2023/node_modules/has-flag/package.json1697613785168999000 0
 70/home/romain/osrd/kickoff/kickoff-2023/node_modules/has-flag/readme.md1697613785168999000 0
+95/home/romain/osrd/kickoff/kickoff-2023/public/assets/logos/OSRD-kickoff-programme-logo-OSRD.svg1698413190000000000 0
 71/home/romain/osrd/kickoff/kickoff-2023/node_modules/has-flag/index.d.ts1697613785168999000 0
 75/home/romain/osrd/kickoff/kickoff-2023/node_modules/source-map/package.json1697613784125000000 0
 89/home/romain/osrd/kickoff/kickoff-2023/node_modules/source-map/lib/source-map-consumer.js1697613784125000000 0
@@ -153,6 +172,7 @@
 90/home/romain/osrd/kickoff/kickoff-2023/node_modules/source-map/lib/source-map-generator.js1697613784125000000 0
 80/home/romain/osrd/kickoff/kickoff-2023/node_modules/source-map/lib/base64-vlq.js1697613784125000000 0
 81/home/romain/osrd/kickoff/kickoff-2023/node_modules/source-map/lib/source-node.js1697613784125000000 0
+70/home/romain/osrd/kickoff/kickoff-2023/dist/background_01.3e15c0b9.png1699008611798852814 0
 82/home/romain/osrd/kickoff/kickoff-2023/node_modules/source-map/lib/mapping-list.js1697613784125000000 0
 87/home/romain/osrd/kickoff/kickoff-2023/node_modules/source-map/dist/source-map.debug.js1697613784125000000 0
 85/home/romain/osrd/kickoff/kickoff-2023/node_modules/source-map/dist/source-map.min.js1697613784125000000 0
@@ -301,6 +321,7 @@
 64/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/open.js1699006561730000000 0
 69/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/util/when.js1699006561730000000 0
 66/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/native.js1699006561730000000 0
+99/home/romain/osrd/kickoff/kickoff-2023/public/assets/visuels/OSRD-kickoff-programme-ornement-04.svg1698413150000000000 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/dependencies/lz4/lib/lz4.c1699006561730000000 0
 87/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/dependencies/lz4/lib/README.md1699006561730000000 0
 87/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/dependencies/lz4/lib/lz4file.h1699006561730000000 0
@@ -328,6 +349,7 @@
 102/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/chacha8.c1699006561730000000 0
 103/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_dump.11699006561730000000 0
 102/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/intro.doc1699006561730000000 0
+95/home/romain/osrd/kickoff/kickoff-2023/public/assets/plan/OSRD-kickoff-programme-plan-event.svg1698412894000000000 0
 103/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_dump.c1699006561730000000 0
 101/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest3.c1699006561730000000 0
 99/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/midl.c1699006561730000000 0
@@ -539,6 +561,7 @@
 90/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/src/_array_with_holes.mjs1699006561312999000 0
 86/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/src/_to_primitive.mjs1699006561312999000 0
 78/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/src/index.mjs1699006561312999000 0
+99/home/romain/osrd/kickoff/kickoff-2023/public/assets/pictos-boutons/OSRD-kickoff-programme-lien.svg1698412794000000000 0
 98/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/src/_class_private_method_set.mjs1699006561312999000 0
 91/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/src/_iterable_to_array.mjs1699006561312999000 0
 82/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/cjs/_ts_param.cjs1699006561312999000 0
@@ -652,6 +675,7 @@
 93/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/_/_class_private_method_init1699006565221021828 1
 111/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/_/_class_check_private_static_field_descriptor1699006565221021828 1
 96/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/_/_read_only_error/package.json1699006561312999000 0
+89/home/romain/osrd/kickoff/kickoff-2023/dist/OSRD-kickoff-programme-logo-GOUV.f2120df8.svg1699008611574855451 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/_/_read_only_error1699006565221021828 1
 103/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/_/_create_for_of_iterator_helper_loose1699006565221021828 1
 95/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/_/_async_iterator/package.json1699006561312999000 0
@@ -749,6 +773,7 @@
 59/home/romain/osrd/kickoff/kickoff-2023/node_modules/is-glob1699006564881026369 1
 69/home/romain/osrd/kickoff/kickoff-2023/node_modules/is-json/README.md1699006564094000000 0
 73/home/romain/osrd/kickoff/kickoff-2023/node_modules/is-json/test/index.js1699006564094000000 0
+102/home/romain/osrd/kickoff/kickoff-2023/public/assets/pictos-boutons/OSRD-kickoff-programme-plan-01.svg1698412688000000000 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/chrome-trace-event/package.json1698674442239000000 0
 94/home/romain/osrd/kickoff/kickoff-2023/node_modules/chrome-trace-event/dist/trace-event.js.map1698674442239000000 0
 90/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/cjs/_class_call_check.cjs1699006561312999000 0
@@ -818,6 +843,7 @@
 73/home/romain/osrd/kickoff/kickoff-2023/node_modules/utility-types/LICENSE1699006561089999000 0
 65/home/romain/osrd/kickoff/kickoff-2023/node_modules/utility-types1699006565077023752 1
 74/home/romain/osrd/kickoff/kickoff-2023/node_modules/color-convert/route.js1697613761400000000 0
+72/home/romain/osrd/kickoff/kickoff-2023/dist/kickoff-2023.3464ddca.js.map1699008611590855262 0
 86/home/romain/osrd/kickoff/kickoff-2023/node_modules/node-addon-api/tools/check-napi.js1699006561336999000 0
 80/home/romain/osrd/kickoff/kickoff-2023/node_modules/color-convert/conversions.js1697613761400000000 0
 106/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/_/_class_static_private_field_destructure1699006565221021828 1
@@ -1007,6 +1033,7 @@
 71/home/romain/osrd/kickoff/kickoff-2023/node_modules/picomatch/README.md1697613934467999000 0
 69/home/romain/osrd/kickoff/kickoff-2023/node_modules/picomatch/LICENSE1697613934467999000 0
 61/home/romain/osrd/kickoff/kickoff-2023/node_modules/picomatch1699006565065023912 1
+102/home/romain/osrd/kickoff/kickoff-2023/public/assets/visuels/OSRD-kickoff-programme-sommaire-ligne.svg1698412972000000000 0
 82/home/romain/osrd/kickoff/kickoff-2023/node_modules/semver/internal/identifiers.js1697613768713000000 0
 74/home/romain/osrd/kickoff/kickoff-2023/node_modules/nth-check/package.json1698674448414999000 0
 114/home/romain/osrd/kickoff/kickoff-2023/node_modules/abortcontroller-polyfill/dist/abortcontroller-polyfill-only.js1699006560697999000 0
@@ -1115,6 +1142,7 @@
 82/home/romain/osrd/kickoff/kickoff-2023/node_modules/semver/functions/prerelease.js1697613768713000000 0
 87/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/utils/src/getModuleParts.js1699006558838999000 0
 79/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/utils/src/is-url.js1699006558838999000 0
+99/home/romain/osrd/kickoff/kickoff-2023/public/assets/visuels/OSRD-kickoff-programme-ornement-03.svg1698413128000000000 0
 77/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/utils/src/path.js1699006558838999000 0
 132/home/romain/osrd/kickoff/kickoff-2023/node_modules/ordered-binary/.nyc_output/processinfo/5b6bd808-0399-4ee6-9395-344688761dfa.json1699006563953999000 0
 77/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/utils/src/glob.js1699006558838999000 0
@@ -1279,6 +1307,7 @@
 90/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src/public/BundleGraph.js1699006558073999000 0
 101/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/cjs/_is_native_reflect_construct.cjs1699006561312999000 0
 86/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src/Transformation.js1699006558073999000 0
+92/home/romain/osrd/kickoff/kickoff-2023/dist/OSRD-kickoff-programme-logo-kickoff.c0ec14d5.svg1699008611574855451 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/lib/projectPath.js1699006558073999000 0
 86/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src/PackagerRunner.js1699006558073999000 0
 86/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src/CommittedAsset.js1699006558073999000 0
@@ -1398,6 +1427,7 @@
 88/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/node_modules/.bin/json51699006565249021454 0
 104/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/getelementsbyclassname.js1699006561700999000 0
 94/home/romain/osrd/kickoff/kickoff-2023/node_modules/.bin/node-gyp-build-optional-packages-test1699006565277021081 0
+57/home/romain/osrd/kickoff/kickoff-2023/public/assets/colo1698413402000000000 1
 77/home/romain/osrd/kickoff/kickoff-2023/node_modules/msgpackr/dist/test.js.map1699006560736000000 0
 104/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/document-currentscript.js1699006561700999000 0
 87/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/forms.js1699006561700999000 0
@@ -1612,6 +1642,7 @@
 119/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/mdn-css-unicode-bidi-isolate-override.js1699006561700999000 0
 94/home/romain/osrd/kickoff/kickoff-2023/node_modules/json-parse-even-better-errors/package.json1697613785326999000 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/regions/LA.js1699006561700999000 0
+54/home/romain/osrd/kickoff/kickoff-2023/dist/index.html1699008611586855310 0
 94/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/test/fixtures/invalid-targets1699006565237021615 1
 106/home/romain/osrd/kickoff/kickoff-2023/node_modules/dom-serializer/node_modules/entities/lib/maps/xml.json1698674448687999000 0
 85/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/src/_ts_metadata.mjs1699006561312999000 0
@@ -1683,6 +1714,7 @@
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/regions/AO.js1699006561700999000 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/regions/AW.js1699006561700999000 0
 77/home/romain/osrd/kickoff/kickoff-2023/node_modules/cosmiconfig/dist/types.js1699006563490999000 0
+89/home/romain/osrd/kickoff/kickoff-2023/dist/OSRD-kickoff-programme-logo-SNCF.7943ada4.svg1699008611574855451 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/regions/PS.js1699006561700999000 0
 103/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/css-placeholder-shown.js1699006561700999000 0
 93/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/_/_object_without_properties1699006565221021828 1
@@ -1933,6 +1965,7 @@
 72/home/romain/osrd/kickoff/kickoff-2023/node_modules/globals/package.json1697614041552999000 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/regions/BT.js1699006561700999000 0
 76/home/romain/osrd/kickoff/kickoff-2023/node_modules/htmlnano/lib/helpers.cjs1699006561168999000 0
+99/home/romain/osrd/kickoff/kickoff-2023/public/assets/colo/OSRD-kickoff-programme-colo-01-786ABF.svg1698413368000000000 0
 65/home/romain/osrd/kickoff/kickoff-2023/node_modules/msgpackr/dist1699006565145022843 1
 106/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/transformer-css/node_modules/.bin/browserslist1699006565257021348 0
 80/home/romain/osrd/kickoff/kickoff-2023/node_modules/csso/lib/clean/WhiteSpace.js1698674446730000000 0
@@ -2046,6 +2079,7 @@
 107/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/_/_class_private_field_update/package.json1699006561312999000 0
 93/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/sql-storage.js1699006561700999000 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/regions/VA.js1699006561700999000 0
+105/home/romain/osrd/kickoff/kickoff-2023/public/assets/visuels/OSRD-kickoff-programme-sommaire-boule-02.svg1698413028000000000 0
 85/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/let.js1699006561700999000 0
 82/home/romain/osrd/kickoff/kickoff-2023/node_modules/escape-string-regexp/readme.md1697613780726999000 0
 98/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/text-size-adjust.js1699006561700999000 0
@@ -2069,7 +2103,7 @@
 97/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/runtime-js/lib/helpers/cacheLoader.js1699006559098000000 0
 76/home/romain/osrd/kickoff/kickoff-2023/node_modules/json5/lib/stringify.d.ts1697613785155999000 0
 73/home/romain/osrd/kickoff/kickoff-2023/node_modules/error-ex/package.json1697613781256999000 0
-46/home/romain/osrd/kickoff/kickoff-2023/app.css1699006723326915557 0
+46/home/romain/osrd/kickoff/kickoff-2023/app.css1699008611406857431 0
 95/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/mediarecorder.js1699006561700999000 0
 73/home/romain/osrd/kickoff/kickoff-2023/node_modules/entities/package.json1699006563992000000 0
 74/home/romain/osrd/kickoff/kickoff-2023/node_modules/css-tree/lib/convertor1699006565201022096 1
@@ -2077,6 +2111,7 @@
 48/home/romain/osrd/kickoff/kickoff-2023/yarn.lock1699006565445018837 0
 77/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/utils/src/blob.js1699006558838999000 0
 92/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/node-resolver-core/lib/_empty.js1699006561663000000 0
+62/home/romain/osrd/kickoff/kickoff-2023/dist/index.75a90472.css1699008611574855451 0
 98/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/css-writing-mode.js1699006561700999000 0
 70/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/core/bindings1699006565125023110 1
 109/home/romain/osrd/kickoff/kickoff-2023/node_modules/@babel/highlight/node_modules/supports-color/package.json1697613780755000000 0
@@ -2251,6 +2286,7 @@
 88/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/source-map/node_modules/.bin1699006565253021401 1
 100/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/lib/requests/ParcelConfigRequest.js1699006558073999000 0
 96/home/romain/osrd/kickoff/kickoff-2023/node_modules/dom-serializer/node_modules/entities/LICENSE1698674448687999000 0
+90/home/romain/osrd/kickoff/kickoff-2023/dist/OSRD-kickoff-programme-plan-event.13fe5069.svg1699008611574855451 0
 78/home/romain/osrd/kickoff/kickoff-2023/node_modules/@trysound/sax/package.json1698674448250000000 0
 100/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/packager-js/src/ScopeHoistingPackager.js1699006558855999000 0
 72/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/_/index1699006565225021775 1
@@ -2353,7 +2389,7 @@
 92/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/lib/requests/PathRequest.js1699006558073999000 0
 89/home/romain/osrd/kickoff/kickoff-2023/node_modules/cosmiconfig/node_modules/.bin/js-yaml1699006565265021241 0
 114/home/romain/osrd/kickoff/kickoff-2023/node_modules/htmlnano/docs/versioned_docs/version-2.0.0/010-introduction.md1699006561168999000 0
-38/home/romain/osrd/kickoff/kickoff-20231699007048726604213 1
+38/home/romain/osrd/kickoff/kickoff-20231699008271422711852 1
 88/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/transformer-posthtml/LICENSE1699006560812999000 0
 89/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/ch-unit.js1699006561700999000 0
 105/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/registerprotocolhandler.js1699006561700999000 0
@@ -2813,8 +2849,10 @@
 79/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/utils/src/stream.js1699006558838999000 0
 63/home/romain/osrd/kickoff/kickoff-2023/node_modules/timsort/src1699006565153022736 1
 86/home/romain/osrd/kickoff/kickoff-2023/node_modules/lightningcss-linux-x64-gnu/LICENSE1699006561851999000 0
+70/home/romain/osrd/kickoff/kickoff-2023/public/assets/background_01.png1699008525695858962 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/regions/NO.js1699006561700999000 0
 97/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/background-sync.js1699006561700999000 0
+57/home/romain/osrd/kickoff/kickoff-2023/public/assets/plan1698412894000000000 1
 77/home/romain/osrd/kickoff/kickoff-2023/node_modules/semver/functions/rsort.js1697613768713000000 0
 81/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/workers/src/Worker.js1699006561326999000 0
 63/home/romain/osrd/kickoff/kickoff-2023/node_modules/is-arrayish1699006564881026369 1
@@ -2861,8 +2899,9 @@
 102/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/font-variant-numeric.js1699006561700999000 0
 68/home/romain/osrd/kickoff/kickoff-2023/node_modules/msgpackr-extract1699006565269021188 1
 100/home/romain/osrd/kickoff/kickoff-2023/node_modules/lmdb/node_modules/detect-libc/lib/detect-libc.js1699006564082999000 0
-49/home/romain/osrd/kickoff/kickoff-2023/index.html1699007013339071936 0
+49/home/romain/osrd/kickoff/kickoff-2023/index.html1699008403113259487 0
 71/home/romain/osrd/kickoff/kickoff-2023/node_modules/msgpackr/pack.d.cts1699006560736000000 0
+65/home/romain/osrd/kickoff/kickoff-2023/public/assets/logo-kickoff1698412604000000000 1
 70/home/romain/osrd/kickoff/kickoff-2023/node_modules/htmlnano/index.cjs1699006561168999000 0
 95/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/queryselector.js1699006561700999000 0
 73/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/counter/index.js1697613787028000000 0
@@ -3103,6 +3142,7 @@
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/regions/LK.js1699006561700999000 0
 96/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/css-dir-pseudo.js1699006561700999000 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/optimizer-image/LICENSE1699006558617000000 0
+43/home/romain/osrd/kickoff/kickoff-2023/dist1699008611798852814 1
 68/home/romain/osrd/kickoff/kickoff-2023/node_modules/get-port/license1699006558069000000 0
 87/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/proxy.js1699006561700999000 0
 85/home/romain/osrd/kickoff/kickoff-2023/node_modules/cosmiconfig/dist/loaders.d.ts.map1699006563490999000 0
@@ -3277,6 +3317,7 @@
 99/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/input-placeholder.js1699006561700999000 0
 86/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/lib/Transformation.js1699006558073999000 0
 77/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/fs/lib/types.d.ts1699006558078000000 0
+105/home/romain/osrd/kickoff/kickoff-2023/public/assets/visuels/OSRD-kickoff-programme-sommaire-boule-01.svg1698413006000000000 0
 93/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/ol-reversed.js1699006561700999000 0
 86/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/graph/lib/AdjacencyList.js1699006560934999000 0
 105/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/src/_object_without_properties_loose.mjs1699006561312999000 0
@@ -3320,6 +3361,7 @@
 95/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/ambient-light.js1699006561700999000 0
 75/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/types/package.json1697613787104000000 0
 98/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/web-app-manifest.js1699006561700999000 0
+89/home/romain/osrd/kickoff/kickoff-2023/dist/OSRD-kickoff-programme-logo-OSRD.6f01a8b9.svg1699008611574855451 0
 95/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/selection-api.js1699006561700999000 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/regions/SR.js1699006561700999000 0
 79/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/transformer-css/lib1699006565125023110 1
@@ -3514,6 +3556,7 @@
 78/home/romain/osrd/kickoff/kickoff-2023/node_modules/@lezer/lr/dist/index.d.cts1699006561105999000 0
 71/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/logger/test1699006565117023217 1
 96/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/battery-status.js1699006561700999000 0
+99/home/romain/osrd/kickoff/kickoff-2023/public/assets/colo/OSRD-kickoff-programme-colo-02-C7B2DE.svg1698413334000000000 0
 97/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/css-unset-value.js1699006561700999000 0
 95/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/dispatchevent.js1699006561700999000 0
 107/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/css-container-query-units.js1699006561700999000 0
@@ -3682,6 +3725,7 @@
 81/home/romain/osrd/kickoff/kickoff-2023/node_modules/@swc/helpers/scripts/build.js1699006561312999000 0
 80/home/romain/osrd/kickoff/kickoff-2023/node_modules/posthtml-render/package.json1699006561637000000 0
 83/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/watcher-linux-x64-glibc1699006565033024339 1
+99/home/romain/osrd/kickoff/kickoff-2023/public/assets/visuels/OSRD-kickoff-programme-ornement-02.svg1698413104000000000 0
 96/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/watcher-linux-x64-glibc/watcher.node1699006561598999000 0
 87/home/romain/osrd/kickoff/kickoff-2023/node_modules/svgo/plugins/convertStyleToAttrs.js1698674445963999000 0
 75/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/diagnostic/test1699006565113023271 1
@@ -4014,6 +4058,7 @@
 70/home/romain/osrd/kickoff/kickoff-2023/node_modules/get-port/readme.md1699006558069000000 0
 91/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/runtime-browser-hmr/src/loaders1699006565213021935 1
 91/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/runtime-browser-hmr/lib/loaders1699006565213021935 1
+68/home/romain/osrd/kickoff/kickoff-2023/dist/kickoff-2023.3464ddca.js1699008611590855262 0
 106/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/runtime-browser-hmr/lib/loaders/hmr-runtime.js1699006559937999000 0
 89/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/workers/test/cpuCount.test.js1699006561326999000 0
 69/home/romain/osrd/kickoff/kickoff-2023/node_modules/error-ex/index.js1697613781256999000 0
@@ -4031,6 +4076,7 @@
 79/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/workers/src/process1699006565225021775 1
 76/home/romain/osrd/kickoff/kickoff-2023/node_modules/css-what/lib/es/parse.js1698674448469000000 0
 95/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/workers/src/process/ProcessChild.js1699006561326999000 0
+99/home/romain/osrd/kickoff/kickoff-2023/public/assets/visuels/OSRD-kickoff-programme-ornement-01.svg1698413082000000000 0
 85/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/workers/src/WorkerFarm.js1699006561326999000 0
 82/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/runtime-js/src/helpers1699006565213021935 1
 85/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/workers/src/childState.js1699006561326999000 0
@@ -4194,6 +4240,7 @@
 70/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/source-map1699006565253021401 1
 115/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/workers/test/integration/workerfarm/shared-reference.js1699006561326999000 0
 92/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/source-map/parcel_sourcemap_wasm1699006564837026957 1
+98/home/romain/osrd/kickoff/kickoff-2023/public/assets/pictos-boutons/OSRD-kickoff-programme-ddl.svg1698412768000000000 0
 88/home/romain/osrd/kickoff/kickoff-2023/node_modules/css-tree/lib/syntax/scope/default.js1698674446786000000 0
 104/home/romain/osrd/kickoff/kickoff-2023/node_modules/caniuse-lite/data/features/css-background-offsets.js1699006561700999000 0
 101/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/source-map/parcel_sourcemap_wasm/dist-web1699006565217021882 1
@@ -4396,6 +4443,7 @@
 97/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/test/ParcelConfigRequest.test.js1699006558073999000 0
 84/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/test/Parcel.test.js1699006558073999000 0
 68/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src1699006565113023271 1
+101/home/romain/osrd/kickoff/kickoff-2023/public/assets/visuels/OSRD-kickoff-programme-sommaire-full.svg1698412938000000000 0
 94/home/romain/osrd/kickoff/kickoff-2023/node_modules/@mischnic/json-sourcemap/node_modules/.bin1699006565245021508 1
 99/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/transformer-html/src/HTMLTransformer.js1699006560657000000 0
 88/home/romain/osrd/kickoff/kickoff-2023/node_modules/@parcel/core/src/summarizeRequest.js1699006558073999000 0

@@ -1,0 +1,127 @@
+.section-one {
+  color: #fff;
+  background-image: url("background_01.3e15c0b9.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section-two {
+  text-align: center;
+  color: #fff;
+  background: #13120d;
+  height: 100vh;
+}
+
+.section-two .part-one {
+  background: #786abf;
+  border-bottom: 1px solid #fff;
+}
+
+.section-two .part-two {
+  background: #13120d;
+}
+
+.section-three {
+  color: #fff;
+  text-align: center;
+  background: #786abf;
+  height: 100vh;
+}
+
+.section-four {
+  color: #fff;
+  background-image: url("background_01.3e15c0b9.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container-one {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.container-four {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.logo-osrd-big {
+  height: 17rem;
+}
+
+.logo-date {
+  height: 4rem;
+}
+
+.logo-titre {
+  height: 3rem;
+}
+
+.logo-place {
+  height: 20rem;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 5rem;
+}
+
+time {
+  font-size: 2rem;
+}
+
+.footer {
+  width: auto;
+  height: 2rem;
+  padding: .5rem;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer div {
+  justify-content: space-evenly;
+}
+
+.footer img {
+  height: 2rem;
+}
+
+@media screen and (width <= 1024px) {
+  p {
+    padding: .5rem;
+  }
+
+  .logo-osrd-big {
+    height: 13rem;
+    padding: .5rem;
+  }
+
+  .logo-date {
+    height: 2rem;
+    padding: .5rem;
+  }
+
+  .logo-titre {
+    height: 4rem;
+    padding: .5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+/*# sourceMappingURL=index.75a90472.css.map */

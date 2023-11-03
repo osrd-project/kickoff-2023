@@ -2,7 +2,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: url("../public/assets/background_02.png");
+  background-image: url("/public/assets/background_01.png");
   color: white;
 }
 
@@ -34,7 +34,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: url("../public/assets/background_02.png");
+  background-image: url("public/assets/background_01.png");
   color: white;
 }
 
