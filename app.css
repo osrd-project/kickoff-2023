@@ -1,9 +1,18 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .section-one {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: url("/public/assets/background_01.png");
+  background-image: url("/public/assets/background_01.jpg");
   color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-two {
@@ -34,16 +43,19 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: url("public/assets/background_01.png");
+  background-image: url("/public/assets/background_01.jpg");
   color: white;
 }
 
 .container-one {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+svg {
+  height: 30vh;
 }
 
 .container-four {
@@ -54,16 +66,16 @@
   align-items: center;
 }
 
-.logo-osrd-big {
-  height: 17rem;
-}
-
 .logo-date {
   height: 4rem;
 }
 
-.logo-titre {
-  height: 3rem;
+#circle {
+  opacity: 0;
+}
+
+.st1 {
+  height: 10rem;
 }
 
 .logo-place {
@@ -96,6 +108,28 @@ time {
 }
 .footer img {
   height: 2rem;
+}
+
+#first-text {
+  opacity: 0;
+}
+
+#second-text {
+  opacity: 0;
+}
+
+#line-container {
+  height: 10%;
+  width: 20%;
+  position: absolute;
+  left: 0;
+  bottom: 100;
+  /* rotate: -45deg; */
+  transform: translate(-50%, -50%);
+}
+
+#line {
+  stroke-dashoffset: 0;
 }
 
 @media screen and (max-width: 1024px) {
