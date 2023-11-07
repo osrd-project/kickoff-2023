@@ -2,22 +2,44 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Avenir;
+}
+
+.container {
+  text-align: center;
+  color: var(--color);
+  background-image: url("background_01.1e2e62c2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
 }
 
 .section-one {
   color: #fff;
-  background-image: url("background_01.1e2e62c2.jpg");
-  background-position: center;
-  background-size: cover;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
   height: 100vh;
+  display: flex;
+}
+
+.container-one {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
 .section-two {
   color: #fff;
   background: #13120d;
+  width: 100%;
   height: 100vh;
 }
 
@@ -37,10 +59,6 @@ body {
   display: flex;
 }
 
-.section-two img {
-  margin-top: 5rem;
-}
-
 .section-three {
   color: #fff;
   text-align: center;
@@ -48,6 +66,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 100vh;
   display: flex;
 }
@@ -63,7 +82,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 5rem;
   display: flex;
 }
 
@@ -73,21 +91,8 @@ body {
 
 .section-four {
   color: #fff;
-  background-image: url("background_01.1e2e62c2.jpg");
-  background-position: center;
-  background-size: cover;
+  width: 100%;
   height: 100vh;
-}
-
-.container-one {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-svg {
-  height: 30vh;
 }
 
 .container-four {
@@ -96,6 +101,27 @@ svg {
   align-items: center;
   height: 100vh;
   display: flex;
+}
+
+.footer {
+  align-self: start;
+  height: 2rem;
+  padding: .5rem;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer div {
+  justify-content: space-evenly;
+}
+
+.footer img {
+  height: 2rem;
+}
+
+svg {
+  height: 30vh;
 }
 
 .logo-date {
@@ -111,37 +137,25 @@ svg {
 }
 
 .logo-place {
-  height: 20rem;
+  height: 18rem;
 }
 
 p {
   text-align: center;
 }
 
+h1 {
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
 h2 {
   margin-top: 2rem;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 time {
   font-size: 2rem;
-}
-
-.footer {
-  width: auto;
-  height: 2rem;
-  padding: .5rem;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-}
-
-.footer div {
-  justify-content: space-evenly;
-}
-
-.footer img {
-  height: 2rem;
 }
 
 #first-text, #second-text {

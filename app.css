@@ -2,21 +2,43 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Avenir';
+}
+
+.container {
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./public/assets/background_01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .section-one {
   height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-image: url("/public/assets/background_01.jpg");
+  width: 100%;
   color: white;
   justify-content: center;
   display: flex;
   flex-direction: column;
 }
 
+.container-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .section-two {
   height: 100vh;
+  width: 100%;
   color: white;
   background: #13120d;
 }
@@ -37,16 +59,13 @@ body {
   align-items: center;
 }
 
-.section-two img {
-  margin-top: 5rem;
-}
-
 .section-three {
+  height: 100vh; 
+  width: 100%;
   display: flex;         
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-  height: 100vh; 
   color: white;         
   text-align: center;   
   background: #786abf;
@@ -60,7 +79,6 @@ body {
 }
 
 .section-three .part-two {
-  margin-top: 5rem;
   display: flex;         
   flex-direction: column;
   justify-content: center;
@@ -73,21 +91,8 @@ body {
 
 .section-four {
   height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-image: url("/public/assets/background_01.jpg");
+  width: 100%;
   color: white;
-}
-
-.container-one {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-svg {
-  height: 30vh;
 }
 
 .container-four {
@@ -96,6 +101,25 @@ svg {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 2rem;
+  display: flex;
+  padding: 0.5rem;
+  align-self: start;
+}
+.footer div {
+  justify-content: space-evenly;
+}
+.footer img {
+  height: 2rem;
+}
+
+svg {
+  height: 30vh;
 }
 
 .logo-date {
@@ -111,35 +135,25 @@ svg {
 }
 
 .logo-place {
-  height: 20rem;
+  height: 18rem;
 }
 
 p {
   text-align: center;
 }
 
+h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
 h2 {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-top: 2rem;
 }
 
 time {
   font-size: 2rem;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  height: 2rem;
-  width: auto;
-  display: flex;
-  padding: 0.5rem;
-}
-.footer div {
-  justify-content: space-evenly;
-}
-.footer img {
-  height: 2rem;
 }
 
 #first-text {
