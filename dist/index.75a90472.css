@@ -5,6 +5,10 @@ body {
   font-family: Avenir;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   text-align: center;
   color: var(--color);
@@ -16,8 +20,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
   display: flex;
+  overflow: scroll;
 }
 
 .section-one {
@@ -33,6 +37,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 30vh;
   display: flex;
 }
 
@@ -104,12 +109,15 @@ body {
 }
 
 .footer {
-  align-self: start;
-  height: 2rem;
-  padding: .5rem;
+  opacity: 0;
+  justify-content: space-between;
+  padding: 2%;
+  transition: opacity .5s ease-in-out;
   display: flex;
   position: fixed;
   bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .footer div {
@@ -120,8 +128,8 @@ body {
   height: 2rem;
 }
 
-svg {
-  height: 30vh;
+.footer.show {
+  opacity: 1;
 }
 
 .logo-date {
@@ -162,17 +170,41 @@ time {
   opacity: 0;
 }
 
-#line-container {
-  width: 20%;
-  height: 10%;
-  position: absolute;
+#first-ornament-svg {
+  width: 10vh;
+  height: 10vh;
+  position: fixed;
   bottom: 100px;
-  left: 0;
-  transform: translate(-50%, -50%);
+  left: -10px;
 }
 
-#line {
-  stroke-dashoffset: 0;
+#second-ornament-svg {
+  width: 15vh;
+  height: 15vh;
+  position: fixed;
+  top: 50px;
+  right: -10px;
+}
+
+#arrow-down {
+  opacity: 1;
+  height: 5vh;
+  transition: opacity .4s ease-in-out;
+}
+
+#arrow-up {
+  opacity: 0;
+  height: 5vh;
+  padding-bottom: 2%;
+  transition: opacity .4s ease-in-out;
+}
+
+.arrow-container {
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  bottom: 10%;
+  right: 10px;
 }
 
 @media screen and (width <= 1024px) {
