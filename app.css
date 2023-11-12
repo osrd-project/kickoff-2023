@@ -17,11 +17,15 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(./public/assets/background_01.jpg);
+  background-image: url(./public/assets/background_site_kickoff.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   overflow: scroll;
+}
+
+.background-black {
+  background-color: black;
 }
 
 .section-one {
@@ -45,7 +49,6 @@ html {
   height: 100vh;
   width: 100%;
   color: white;
-  background: #13120d;
 }
 
 .section-two .part-one {
@@ -64,6 +67,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #13120d;
 }
 
 .section-three {
@@ -90,6 +94,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  text-align: left;
 }
 
 .section-three span {
@@ -168,12 +173,10 @@ a {
 
 h1 {
   font-size: 4rem;
-  margin-top: 2rem;
 }
 
 h2 {
   font-size: 3rem;
-  margin-top: 2rem;
 }
 
 time {

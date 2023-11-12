@@ -12,7 +12,7 @@ html {
 .background {
   text-align: center;
   color: var(--color);
-  background-image: url("background_01.1e2e62c2.jpg");
+  background-image: url("background_site_kickoff.aaca1632.webp");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -22,6 +22,10 @@ html {
   width: 100%;
   display: flex;
   overflow: scroll;
+}
+
+.background-black {
+  background-color: #000;
 }
 
 .section-one {
@@ -43,7 +47,6 @@ html {
 
 .section-two {
   color: #fff;
-  background: #13120d;
   width: 100%;
   height: 100vh;
 }
@@ -59,6 +62,7 @@ html {
 }
 
 .section-two .part-two {
+  background: #13120d;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -86,6 +90,7 @@ html {
 }
 
 .section-three .part-two {
+  text-align: left;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -164,12 +169,10 @@ a {
 }
 
 h1 {
-  margin-top: 2rem;
   font-size: 4rem;
 }
 
 h2 {
-  margin-top: 2rem;
   font-size: 3rem;
 }
 

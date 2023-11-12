@@ -184,3 +184,42 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+
+window.addEventListener("scroll", function () {
+  // Calcul de la position du défilement
+  var scroll = window.pageYOffset || document.documentElement.scrollTop;
+
+  // Obtenir la hauteur de la fenêtre
+  var windowHeight = window.innerHeight;
+
+  // Obtenir les éléments de section
+  var sectionOne = document.querySelector(".section-one");
+  var sectionTwoUp = document.querySelector(".section-two .part-one");
+  var sectionThree = document.querySelector(".section-three");
+  var sectionFour = document.querySelector(".section-four");
+
+  // Calculer le pourcentage de défilement pour la section actuelle
+  var scrollPercentOneTwo = scroll / windowHeight;
+  var scrollPercentTwoThree = (scroll - windowHeight) / windowHeight;
+  var scrollPercentThreeFour = (scroll - 2 * windowHeight) / windowHeight;
+
+  // Fixer une limite pour le pourcentage de défilement entre 0 et 1 pour chaque transition
+  scrollPercentOneTwo = Math.min(1, Math.max(0, scrollPercentOneTwo));
+  scrollPercentTwoThree = Math.min(1, Math.max(0, scrollPercentTwoThree));
+  scrollPercentThreeFour = Math.min(1, Math.max(0, scrollPercentThreeFour));
+
+  // Transition de la section 1 à la section 2 (part-one)
+  sectionOne.style.backgroundColor =
+    "rgba(120, 106, 191," + scrollPercentOneTwo + ")";
+  sectionTwoUp.style.backgroundColor =
+    "rgba(120, 106, 191," + scrollPercentOneTwo + ")";
+
+  // Transition de la section 3 à la section 4
+  if (scroll >= 2 * windowHeight) {
+    // Commence la transition après que la section 2 dépasse
+    sectionThree.style.backgroundColor =
+      "rgba(120, 106, 191," + (1 - scrollPercentThreeFour) + ")";
+    sectionFour.style.backgroundColor =
+      "rgba(120, 106, 191," + (1 - scrollPercentThreeFour) + ")";
+  }
+});
