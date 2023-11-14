@@ -213,6 +213,7 @@ time {
   bottom: 100px;
   height: 10vh;
   width: 10vh;
+  opacity: 0;
 }
 
 #second-ornament-svg {
@@ -221,6 +222,7 @@ time {
   top: 50px;
   height: 15vh;
   width: 15vh;
+  opacity: 0;
 }
 
 #third-ornament-svg {
@@ -242,7 +244,7 @@ time {
 #fifth-ornament-svg {
   position: absolute;
   right: -6rem;
-  bottom: 30%;
+  bottom: 20%;
   height: 13rem;
 }
 
@@ -266,7 +268,6 @@ time {
 }
 #arrow-up {
   height: 3.8vh;
-  opacity: 0;
   transition: opacity 0.1s ease-in-out;
   cursor: pointer;
   padding-right: 0.5rem;

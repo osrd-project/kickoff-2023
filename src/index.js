@@ -15,7 +15,39 @@ function updateCurrentSection() {
 }
 
 anime({
-  targets: "#logo-path",
+  targets: ["#logo-path1"],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: "easeInOutSine",
+  duration: 1000,
+  loop: false,
+  delay: 500,
+});
+anime({
+  targets: ["#logo-path2"],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: "easeInOutSine",
+  duration: 1000,
+  loop: false,
+  delay: 500,
+});
+anime({
+  targets: ["#logo-path3"],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: "easeInOutSine",
+  duration: 1000,
+  loop: false,
+  delay: 500,
+});
+anime({
+  targets: ["#logo-path4"],
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: "easeInOutSine",
+  duration: 1000,
+  loop: false,
+  delay: 500,
+});
+anime({
+  targets: ["#logo-path5"],
   strokeDashoffset: [anime.setDashoffset, 0],
   easing: "easeInOutSine",
   duration: 1000,
@@ -24,19 +56,17 @@ anime({
 });
 
 anime({
-  targets: "#first-ornament-path",
-  strokeDashoffset: [anime.setDashoffset, 0],
-  easing: "easeInOutSine",
-  duration: 1500,
+  targets: "#first-ornament-svg",
+  opacity: 1,
+  duration: 10000,
   loop: false,
   delay: 1000,
 });
 
 anime({
-  targets: "#second-ornament-path",
-  strokeDashoffset: [anime.setDashoffset, 0],
-  easing: "easeInOutSine",
-  duration: 1500,
+  targets: "#second-ornament-svg",
+  opacity: 1,
+  duration: 10000,
   loop: false,
   delay: 1000,
 });
@@ -114,19 +144,43 @@ const sectionThree = document.getElementById("section-three");
 const sectionFour = document.getElementById("section-four");
 const arrowContainer = document.querySelector(".arrow-container");
 
-window.addEventListener("scroll", function () {
+// window.addEventListener("scroll", function () {
+//   if (window.scrollY === 0) {
+//     arrowContainer.removeChild(arrowUp.parentElement);
+//   } else {
+//     arrowContainer.appendChild(arrowUp.parentElement);
+//   }
+
+//   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+//     arrowContainer.removeChild(arrowDown.parentElement);
+//   } else {
+//     arrowContainer.appendChild(arrowDown.parentElement);
+//   }
+// });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Check if the page is already scrolled to the top
   if (window.scrollY === 0) {
+    // If it is, remove the arrowUp element
     arrowContainer.removeChild(arrowUp.parentElement);
-  } else {
-    arrowContainer.appendChild(arrowUp.parentElement);
   }
 
-  if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-    arrowContainer.removeChild(arrowDown.parentElement);
-  } else {
-    arrowContainer.appendChild(arrowDown.parentElement);
-  }
+  // Add the scroll event listener after the initial check
+  window.addEventListener("scroll", function () {
+    if (window.scrollY === 0) {
+      arrowContainer.removeChild(arrowUp.parentElement);
+    } else {
+      arrowContainer.appendChild(arrowUp.parentElement);
+    }
+
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+      arrowContainer.removeChild(arrowDown.parentElement);
+    } else {
+      arrowContainer.appendChild(arrowDown.parentElement);
+    }
+  });
 });
+
 arrowUp.addEventListener("mouseenter", function () {
   arrowUp.style.opacity = 0.5;
 });

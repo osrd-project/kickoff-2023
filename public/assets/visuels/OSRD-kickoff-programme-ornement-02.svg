@@ -10,7 +10,7 @@
 <g id="images">
 </g>
 <g id="txt">
-	<path class="st0" d="M284.5,284.5C149.5,284.5,40,175,40,40"/>
+	<path id="second-ornament-path" class="st0" d="M284.5,284.5C149.5,284.5,40,175,40,40"/>
 </g>
 <g id="logo">
 </g>
