@@ -580,10 +580,14 @@ var _animeEsJs = require("animejs/lib/anime.es.js");
 var _animeEsJsDefault = parcelHelpers.interopDefault(_animeEsJs);
 let pathSecondOrnament = document.querySelector("#second-ornament-path");
 let totalLenghtSecondOrnament = pathSecondOrnament.getTotalLength();
-function log() {
-    console.log("totalLenghtSecondOrnament", totalLenghtSecondOrnament);
+let logoPath = document.querySelector("logo-path");
+let currentSection = 1;
+function updateCurrentSection() {
+    let viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+    let scrollPosition = window.scrollY || document.body.scrollTop + (document.documentElement && document.documentElement.scrollTop || 0);
+    currentSection = scrollPosition / viewportHeight + 1;
+    console.log("Current Section:", currentSection);
 }
-log();
 (0, _animeEsJsDefault.default)({
     targets: "#logo-path",
     strokeDashoffset: [
@@ -624,9 +628,27 @@ log();
     duration: 10000
 });
 (0, _animeEsJsDefault.default)({
+    targets: "#titre",
+    opacity: 1,
+    delay: 2500,
+    duration: 10000
+});
+(0, _animeEsJsDefault.default)({
+    targets: "#date",
+    opacity: 1,
+    delay: 2700,
+    duration: 10000
+});
+(0, _animeEsJsDefault.default)({
     targets: "#line",
     opacity: 1,
     delay: 2000,
+    duration: 5000
+});
+(0, _animeEsJsDefault.default)({
+    targets: ".center",
+    opacity: 1,
+    delay: 3300,
     duration: 5000
 });
 (0, _animeEsJsDefault.default)({
@@ -639,13 +661,13 @@ log();
     targets: "#first-text",
     opacity: 1,
     duration: 2000,
-    delay: 3000
+    delay: 2900
 });
 (0, _animeEsJsDefault.default)({
     targets: "#second-text",
     opacity: 1,
     duration: 2000,
-    delay: 3500
+    delay: 3100
 });
 (0, _animeEsJsDefault.default)({
     targets: "#line-container",
@@ -666,7 +688,11 @@ window.addEventListener("scroll", function() {
     if (window.scrollY === 0) {
         console.log("at the top");
         arrowUp.style.opacity = "0";
-    } else arrowUp.style.opacity = "1";
+        arrowUp.style.pointerEvents = "none";
+    } else {
+        arrowUp.style.opacity = "1";
+        arrowUp.style.pointerEvents = "auto";
+    }
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
         console.log("at the bottom");
         arrowDown.style.opacity = "0";
@@ -676,13 +702,18 @@ window.addEventListener("scroll", function() {
         arrowDown.style.pointerEvents = "auto";
     }
 });
-let currentSection = 1;
-function updateCurrentSection() {
-    let viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-    let scrollPosition = window.scrollY || document.body.scrollTop + (document.documentElement && document.documentElement.scrollTop || 0);
-    currentSection = scrollPosition / viewportHeight + 1;
-    console.log("Current Section:", currentSection);
-}
+arrowUp.addEventListener("mouseenter", function() {
+    arrowUp.style.opacity = 0.5;
+});
+arrowUp.addEventListener("mouseleave", function() {
+    arrowUp.style.opacity = 1;
+});
+arrowDown.addEventListener("mouseenter", function() {
+    arrowDown.style.opacity = 0.5;
+});
+arrowDown.addEventListener("mouseleave", function() {
+    arrowDown.style.opacity = 1;
+});
 document.addEventListener("scroll", function() {
     updateCurrentSection();
     console.log("current section", currentSection);
@@ -721,6 +752,138 @@ updateFooterVisibility();
 document.addEventListener("scroll", function() {
     updateFooterVisibility();
 });
+// Rebours
+let today = new Date();
+const endDate = new Date(2023, 11, 13);
+let timeDifference = endDate.getTime() - today.getTime();
+let daysDifference = Math.ceil(timeDifference / 86400000);
+// let hours = Math.abs(today - endDate) / 36e5;
+let days = Math.floor(timeDifference / 86400000);
+// Calculate hours, minutes, and seconds
+let hours = Math.floor(timeDifference % 86400000 / 3600000);
+let minutes = Math.floor(timeDifference % 3600000 / 60000);
+let seconds = Math.floor(timeDifference % 60000 / 1000);
+console.log("days", days);
+console.log("hours", hours);
+console.log("minutes", minutes);
+console.log("seconds", seconds);
+console.log("today", today);
+console.log("end date", endDate);
+// console.log(`Days left: ${daysDifference}`);
+console.log(`Time difference: ${timeDifference}`);
+// console.log(`Hours left: ${hours}`);
+// Set up flaps ////////////////////////////////////////////
+speed = 0.1; // seconds
+beginStr = `${hours}H${minutes}M${seconds}s`.toUpperCase().split("");
+endStr = `${days} JOURS`.toUpperCase().split("");
+// A-Z, 0-9, spaces only
+amountOfFlaps = beginStr.length >= endStr.length ? beginStr.length : endStr.length;
+div = document.querySelector(".center");
+html = "";
+for(var x = 0; x < amountOfFlaps; x++)html += '<div class=splitflap><div class="top"></div><div class="bottom"></div><div class="nextHalf"></div><div class="nextFull"></div></div>';
+div.innerHTML = html;
+// Set up more stuff ///////////////////////////////////////
+a1 = document.querySelectorAll(".top");
+a2 = document.querySelectorAll(".bottom");
+b1 = document.querySelectorAll(".nextFull");
+b2 = document.querySelectorAll(".nextHalf");
+for(var x = 0; x < a1.length; x++){
+    a2[x].style.animationDuration = speed + "s";
+    b2[x].style.animationDuration = speed + "s";
+}
+// And even more ///////////////////////////////////////////
+char = [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "0",
+    " "
+];
+strCount = [], flag = [];
+for(var x = 0; x < amountOfFlaps; x++){
+    if (beginStr.length != amountOfFlaps) for(var x = 0; x < amountOfFlaps - beginStr.length; x++)beginStr.push(" ");
+    else if (endStr.length != amountOfFlaps) for(var x = 0; x < amountOfFlaps - endStr.length; x++)endStr.push(" ");
+}
+for(var x = 0; x < amountOfFlaps; x++){
+    strCount[x] = char.indexOf(beginStr[x]);
+    flag[x] = false, flag2 = true;
+}
+// Flip them flaps /////////////////////////////////////////
+setInterval(function() {
+    for(var x = 0; x < amountOfFlaps; x++){
+        if (b1[x].innerHTML == endStr[x]) dontFlipIt(x);
+        else flipIt(x);
+        if (flag.every(function(e) {
+            return e;
+        }) && flag2) flag2 = false, changeDestination();
+    }
+}, speed * 1000);
+////////////////////////////////////////////////////////////
+// Flap flipping functions /////////////////////////////////
+////////////////////////////////////////////////////////////
+function flipIt(x) {
+    a1[x].innerHTML = char[strCount[x] == 0 ? char.length - 1 : strCount[x] - 1];
+    a2[x].innerHTML = char[strCount[x] == 0 ? char.length - 1 : strCount[x] - 1];
+    b1[x].innerHTML = char[strCount[x]];
+    b2[x].innerHTML = char[strCount[x]];
+    a2[x].classList.remove("flip1");
+    a2[x].offsetWidth = a2[x].offsetWidth;
+    a2[x].classList.add("flip1");
+    b2[x].classList.remove("flip2");
+    b2[x].offsetWidth = b2[x].offsetWidth;
+    b2[x].classList.add("flip2");
+    if (strCount[x] > char.length - 2) strCount[x] = 0;
+    else strCount[x]++;
+}
+function dontFlipIt(x) {
+    flag[x] = true;
+    a2[x].classList.remove("flip2");
+    a2[x].style.backgroundColor = "#3BB6eB";
+    b2[x].style.backgroundColor = "#3BB6eB";
+    a1[x].innerHTML = char[strCount[x] == 0 ? char.length - 1 : strCount[x] - 1];
+    a2[x].innerHTML = char[strCount[x] == 0 ? char.length - 1 : strCount[x] - 1];
+}
+function changeDestination() {
+    setTimeout(function() {
+        flag.fill(false);
+        flag2 = true;
+        var tempArr = endStr.slice();
+        endStr = beginStr.slice();
+        beginStr = tempArr.slice();
+    }, 3000);
+}
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
         if (entry.isIntersecting) entry.target.classList.toggle("show", entry.isIntersecting);

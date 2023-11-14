@@ -7,7 +7,7 @@
     <script src="./src/index.js" type="module"></script>
   </head>
   <body>
-    <div class="background mandatory-scroll-snapping" dir="ltr">
+    <div class="background" dir="ltr">
       <section class="section-one" id="section-one">
         <div class="container-one">
           <svg viewBox="0 0 567.3 475.8">
@@ -97,6 +97,16 @@
             </g>
             <g id="taille-ecran"></g>
           </svg>
+          <img
+            src="/public/assets/logo-kickoff/OSRD-kickoff-programme-titre-kickoff.svg"
+            alt="titre"
+            id="titre"
+          />
+          <img
+            src="/public/assets/logo-kickoff/OSRD-kickoff-programme-date-kickoff.svg"
+            alt="titre"
+            id="date"
+          />
         </div>
         <div>
           <p id="first-text">
@@ -108,6 +118,7 @@
         <div>
           <p id="second-text">(+diffusion en ligne)</p>
         </div>
+        <div class="center"></div>
 
         <svg
           version="1.1"
@@ -193,16 +204,24 @@
               >your Journey<span style="color: #c7b2de">.</span></span
             >
           </h1>
-          <a href="https://maps.app.goo.gl/xpuXFz91JD33hsij6" class="hidden link">
+          <a
+            href="https://maps.app.goo.gl/xpuXFz91JD33hsij6"
+            class="hidden link"
+          >
             <p>
               34 rue du commandant René Mouchotte <br />
               de 14h à 16h <br />
-              <span> <img src="/public/assets/visuels/logo-metro.png"
-                alt="metro"
-                class="logo-metro hidden"> Montparnasse Bienvenue</span>
+              <span>
+                <img
+                  src="/public/assets/visuels/logo-metro.png"
+                  alt="metro"
+                  class="logo-metro hidden"
+                />
+                Montparnasse Bienvenue</span
+              >
             </p>
-          <p class="hidden">75014 Paris</p>
-        </a>
+            <p id="padding-bot" class="hidden">75014 Paris</p>
+          </a>
         </div>
         <div class="part-two">
           <h2 class="hidden">Le lieu</h2>
@@ -212,9 +231,43 @@
             class="logo-place hidden"
           />
         </div>
+        <div>
+          <svg
+            x="0px"
+            y="0px"
+            viewBox="0 0 324.5 324.5"
+            style="enable-background: new 0 0 324.5 324.5"
+            xml:space="preserve"
+            id="third-ornament-svg"
+          >
+            <g id="fond"></g>
+            <g id="images"></g>
+            <g id="txt">
+              <path
+                id="third-ornament-path"
+                d="M284.5,284.5C149.5,284.5,40,175,40,40"
+                style="
+                  fill: none;
+                  stroke: #ffffff;
+                  stroke-width: 60;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-miterlimit: 10;
+                "
+              />
+            </g>
+            <g id="logo"></g>
+            <g id="taille-ecran"></g>
+          </svg>
+          <img
+            id="fourth-ornament-svg"
+            src="/public/assets/visuels/OSRD-kickoff-programme-ornement-01.svg"
+            alt=""
+          />
+        </div>
       </section>
       <section class="section-three" id="section-three">
-        <div class="hidden"> 
+        <div class="hidden">
           <h2>Les conférences</h2>
           <p style="color: black">
             Au programme, de 14h à 16h, une série de conférences de 5 minutes
@@ -243,6 +296,11 @@
             <b>Loïc Hamelin</b> - Directeur du programme OSRD
           </p>
         </div>
+        <img
+          id="fifth-ornament-svg"
+          src="/public/assets/visuels/OSRD-kickoff-programme-sommaire-boule-02.svg"
+          alt=""
+        />
       </section>
       <section class="section-four" id="section-four">
         <div class="container-four">
@@ -250,10 +308,7 @@
             <h2 class="hidden">La suite</h2>
           </div>
           <div class="hidden">
-            <p>
-              Pour plus d'informations, <br />
-              cliquez sur :
-            </p>
+            <p>Plus d'informations sur</p>
             <a href="https://osrd.fr/fr/">
               <img
                 src="/public/assets/logos/OSRD-kickoff-programme-logo-OSRD.svg"
@@ -273,8 +328,7 @@
             src="/public/assets/logos/OSRD-kickoff-programme-logo-UE.svg"
             alt="logo-ue"
           />
-        </div>
-        <div>
+
           <img
             src="/public/assets/logos/OSRD-kickoff-programme-logo-SNCF.svg"
             alt="logo-sncf"
