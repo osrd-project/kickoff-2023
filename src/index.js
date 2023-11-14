@@ -282,7 +282,8 @@ const char = [
   ":",
 ];
 
-(strCount = []), (flag = []);
+let strCount = [];
+let flag = [];
 
 for (let x = 0; x < amountOfFlaps; x++) {
   if (beginStr.length != amountOfFlaps) {
