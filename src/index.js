@@ -144,20 +144,6 @@ const sectionThree = document.getElementById("section-three");
 const sectionFour = document.getElementById("section-four");
 const arrowContainer = document.querySelector(".arrow-container");
 
-// window.addEventListener("scroll", function () {
-//   if (window.scrollY === 0) {
-//     arrowContainer.removeChild(arrowUp.parentElement);
-//   } else {
-//     arrowContainer.appendChild(arrowUp.parentElement);
-//   }
-
-//   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-//     arrowContainer.removeChild(arrowDown.parentElement);
-//   } else {
-//     arrowContainer.appendChild(arrowDown.parentElement);
-//   }
-// });
-
 document.addEventListener("DOMContentLoaded", function () {
   // Check if the page is already scrolled to the top
   if (window.scrollY === 0) {
@@ -173,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
       arrowContainer.appendChild(arrowUp.parentElement);
     }
 
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+    if (currentSection >= 3.9) {
       arrowContainer.removeChild(arrowDown.parentElement);
     } else {
       arrowContainer.appendChild(arrowDown.parentElement);
@@ -195,7 +181,7 @@ arrowDown.addEventListener("mouseenter", function () {
 arrowDown.addEventListener("mouseleave", function () {
   arrowDown.style.opacity = 1;
 });
-arrowDown.addEventListener("click", function () {
+document.addEventListener("scroll", function () {
   console.log("current section", currentSection);
 });
 
