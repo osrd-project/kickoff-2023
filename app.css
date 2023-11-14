@@ -45,6 +45,7 @@ html {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .container-one {
@@ -261,6 +262,7 @@ time {
   opacity: 1;
   transition: opacity 0.1s ease-in-out;
   cursor: pointer;
+  padding-right: 0.5rem;
 }
 #arrow-up {
   height: 3.8vh;
@@ -281,6 +283,7 @@ time {
 .arrow-container div {
   transition: opacity 0.5s ease;
   padding-left: 4px;
+  justify-content: center;
 }
 
 .arrow-container div.hide {

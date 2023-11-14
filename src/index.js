@@ -128,7 +128,7 @@ window.addEventListener("scroll", function () {
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
     arrowContainer.removeChild(arrowDown.parentElement);
   } else {
-    arrowContainer.appendChild(arrow.parentElement);
+    arrowContainer.appendChild(arrowDown.parentElement);
   }
 });
 arrowUp.addEventListener("mouseenter", function () {
