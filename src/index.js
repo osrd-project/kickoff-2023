@@ -359,9 +359,8 @@ function changeDestination() {
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      entry.target.classList.toggle("show", entry.isIntersecting);
-    } else {
-      entry.target.classList.remove("show");
+      entry.target.classList.add("show");
+      observer.unobserve(entry.target);
     }
   });
 });
