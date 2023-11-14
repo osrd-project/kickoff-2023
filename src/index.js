@@ -1,7 +1,6 @@
 import anime from "animejs/lib/anime.es.js";
 
 let pathSecondOrnament = document.querySelector("#second-ornament-path");
-let totalLenghtSecondOrnament = pathSecondOrnament.getTotalLength();
 let logoPath = document.querySelector("logo-path");
 
 let currentSection = 1;
