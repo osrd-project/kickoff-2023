@@ -1,8 +1,5 @@
 import anime from "animejs/lib/anime.es.js";
 
-let pathSecondOrnament = document.querySelector("#second-ornament-path");
-let logoPath = document.querySelector("logo-path");
-
 let currentSection = 1;
 
 function updateCurrentSection() {
@@ -144,6 +141,9 @@ arrowDown.addEventListener("mouseenter", function () {
 arrowDown.addEventListener("mouseleave", function () {
   arrowDown.style.opacity = 1;
 });
+arrowDown.addEventListener("click", function () {
+  console.log("current section", currentSection);
+});
 
 document.addEventListener("scroll", function () {
   updateCurrentSection();
@@ -213,7 +213,7 @@ let seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
 // Set up flaps ////////////////////////////////////////////
 const speed = 0.1; // seconds
-let beginStr = `${hours}:${minutes}:${seconds}s`.toUpperCase().split("");
+let beginStr = `${hours}:${minutes}:${seconds}`.toUpperCase().split("");
 let endStr = `${days} JOURS`.toUpperCase().split("");
 // A-Z, 0-9, spaces only
 
@@ -284,6 +284,7 @@ const char = [
 
 let strCount = [];
 let flag = [];
+let flag2 = true;
 
 for (let x = 0; x < amountOfFlaps; x++) {
   if (beginStr.length != amountOfFlaps) {
