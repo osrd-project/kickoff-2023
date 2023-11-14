@@ -586,7 +586,6 @@ function updateCurrentSection() {
     let viewportHeight = window.innerHeight || document.documentElement.clientHeight;
     let scrollPosition = window.scrollY || document.body.scrollTop + (document.documentElement && document.documentElement.scrollTop || 0);
     currentSection = scrollPosition / viewportHeight + 1;
-    console.log("Current Section:", currentSection);
 }
 (0, _animeEsJsDefault.default)({
     targets: "#logo-path",
@@ -686,7 +685,6 @@ const sectionThree = document.getElementById("section-three");
 const sectionFour = document.getElementById("section-four");
 window.addEventListener("scroll", function() {
     if (window.scrollY === 0) {
-        console.log("at the top");
         arrowUp.style.opacity = "0";
         arrowUp.style.pointerEvents = "none";
     } else {
@@ -694,7 +692,6 @@ window.addEventListener("scroll", function() {
         arrowUp.style.pointerEvents = "auto";
     }
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-        console.log("at the bottom");
         arrowDown.style.opacity = "0";
         arrowDown.style.pointerEvents = "none";
     } else {
@@ -716,7 +713,6 @@ arrowDown.addEventListener("mouseleave", function() {
 });
 document.addEventListener("scroll", function() {
     updateCurrentSection();
-    console.log("current section", currentSection);
 });
 arrowDown.addEventListener("click", function() {
     if (currentSection >= 1 && currentSection < 2) sectionTwo.scrollIntoView({
@@ -763,15 +759,6 @@ let days = Math.floor(timeDifference / 86400000);
 let hours = Math.floor(timeDifference % 86400000 / 3600000);
 let minutes = Math.floor(timeDifference % 3600000 / 60000);
 let seconds = Math.floor(timeDifference % 60000 / 1000);
-console.log("days", days);
-console.log("hours", hours);
-console.log("minutes", minutes);
-console.log("seconds", seconds);
-console.log("today", today);
-console.log("end date", endDate);
-// console.log(`Days left: ${daysDifference}`);
-console.log(`Time difference: ${timeDifference}`);
-// console.log(`Hours left: ${hours}`);
 // Set up flaps ////////////////////////////////////////////
 speed = 0.1; // seconds
 beginStr = `${hours}H${minutes}M${seconds}s`.toUpperCase().split("");

@@ -16,8 +16,6 @@ function updateCurrentSection() {
       ((document.documentElement && document.documentElement.scrollTop) || 0);
 
   currentSection = scrollPosition / viewportHeight + 1;
-
-  console.log("Current Section:", currentSection);
 }
 
 anime({
@@ -121,7 +119,6 @@ const sectionFour = document.getElementById("section-four");
 
 window.addEventListener("scroll", function () {
   if (window.scrollY === 0) {
-    console.log("at the top");
     arrowUp.style.opacity = "0";
     arrowUp.style.pointerEvents = "none";
   } else {
@@ -130,7 +127,6 @@ window.addEventListener("scroll", function () {
   }
 
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-    console.log("at the bottom");
     arrowDown.style.opacity = "0";
     arrowDown.style.pointerEvents = "none";
   } else {
@@ -155,8 +151,6 @@ arrowDown.addEventListener("mouseleave", function () {
 
 document.addEventListener("scroll", function () {
   updateCurrentSection();
-
-  console.log("current section", currentSection);
 });
 
 arrowDown.addEventListener("click", function () {
@@ -220,17 +214,6 @@ let hours = Math.floor(
 );
 let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
 let seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-
-console.log("days", days);
-console.log("hours", hours);
-console.log("minutes", minutes);
-console.log("seconds", seconds);
-
-console.log("today", today);
-console.log("end date", endDate);
-// console.log(`Days left: ${daysDifference}`);
-console.log(`Time difference: ${timeDifference}`);
-// console.log(`Hours left: ${hours}`);
 
 // Set up flaps ////////////////////////////////////////////
 speed = 0.1; // seconds
