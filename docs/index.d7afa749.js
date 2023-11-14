@@ -52,6 +52,6 @@ setInterval(function(){for(var e,t,n=0;n<amountOfFlaps;n++)b1[n].innerHTML==endS
 var e=window.pageYOffset||document.documentElement.scrollTop,t=window.innerHeight,n=document.querySelector(".section-one"),r=document.querySelector(".section-two .part-one"),a=document.querySelector(".section-three"),o=document.querySelector(".section-four"),i=e/t,u=(e-t)/t,s=(e-2*t)/t;// Fixer une limite pour le pourcentage de défilement entre 0 et 1 pour chaque transition
 i=Math.min(1,Math.max(0,i)),u=Math.min(1,Math.max(0,u)),s=Math.min(1,Math.max(0,s)),// Transition de la section 1 à la section 2 (part-one)
 n.style.backgroundColor="rgba(120, 106, 191,"+i+")",r.style.backgroundColor="rgba(120, 106, 191,"+i+")",e>=2*t&&(// Commence la transition après que la section 2 dépasse
-a.style.backgroundColor="rgba(120, 106, 191,"+(1-s)+")",o.style.backgroundColor="rgba(120, 106, 191,"+(1-s)+")")});//# sourceMappingURL=index.1f1aa009.js.map
+a.style.backgroundColor="rgba(120, 106, 191,"+(1-s)+")",o.style.backgroundColor="rgba(120, 106, 191,"+(1-s)+")")});//# sourceMappingURL=index.d7afa749.js.map
 
-//# sourceMappingURL=index.1f1aa009.js.map
+//# sourceMappingURL=index.d7afa749.js.map
