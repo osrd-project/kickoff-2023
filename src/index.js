@@ -22,7 +22,7 @@ anime({
   targets: "#logo-path",
   strokeDashoffset: [anime.setDashoffset, 0],
   easing: "easeInOutSine",
-  duration: 1500,
+  duration: 1000,
   loop: false,
   delay: 500,
 });
@@ -54,13 +54,13 @@ anime({
 anime({
   targets: "#titre",
   opacity: 1,
-  delay: 2500,
+  delay: 2200,
   duration: 10000,
 });
 anime({
   targets: "#date",
   opacity: 1,
-  delay: 2700,
+  delay: 2500,
   duration: 10000,
 });
 
@@ -81,22 +81,22 @@ anime({
 anime({
   targets: ".st1",
   fill: "#fff",
-  delay: 2000,
+  delay: 1200,
   duration: 7000,
 });
 
 anime({
-  targets: "#first-text",
+  targets: "#first-text-container",
   opacity: 1,
-  duration: 2000,
-  delay: 2900,
+  delay: 2600,
+  duration: 4000,
 });
 
 anime({
   targets: "#second-text",
   opacity: 1,
-  duration: 2000,
-  delay: 3100,
+  duration: 4000,
+  delay: 2800,
 });
 
 anime({
@@ -116,22 +116,19 @@ const sectionOne = document.getElementById("section-one");
 const sectionTwo = document.getElementById("section-two");
 const sectionThree = document.getElementById("section-three");
 const sectionFour = document.getElementById("section-four");
+const arrowContainer = document.querySelector(".arrow-container");
 
 window.addEventListener("scroll", function () {
   if (window.scrollY === 0) {
-    arrowUp.style.opacity = "0";
-    arrowUp.style.pointerEvents = "none";
+    arrowContainer.removeChild(arrowUp.parentElement);
   } else {
-    arrowUp.style.opacity = "1";
-    arrowUp.style.pointerEvents = "auto";
+    arrowContainer.appendChild(arrowUp.parentElement);
   }
 
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-    arrowDown.style.opacity = "0";
-    arrowDown.style.pointerEvents = "none";
+    arrowContainer.removeChild(arrowDown.parentElement);
   } else {
-    arrowDown.style.opacity = "1";
-    arrowDown.style.pointerEvents = "auto";
+    arrowContainer.appendChild(arrow.parentElement);
   }
 });
 arrowUp.addEventListener("mouseenter", function () {

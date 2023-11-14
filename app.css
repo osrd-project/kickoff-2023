@@ -192,8 +192,12 @@ time {
   font-size: 2rem;
 }
 
-#first-text {
+#first-text-container {
   opacity: 0;
+}
+
+#first-text-container span {
+  color: #786abf;
 }
 
 #second-text {
@@ -253,15 +257,15 @@ time {
   opacity: 0;
 }
 #arrow-down {
-  height: 5vh;
+  height: 3.8vh;
   opacity: 1;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
   cursor: pointer;
 }
 #arrow-up {
-  height: 5vh;
+  height: 3.8vh;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
   cursor: pointer;
   padding-right: 0.5rem;
 }
@@ -273,6 +277,15 @@ time {
   display: flex;
   flex-direction: row;
   z-index: 1000;
+}
+.arrow-container div {
+  transition: opacity 0.5s ease;
+  padding-left: 4px;
+}
+
+.arrow-container div.hide {
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* Rebours */
@@ -399,8 +412,8 @@ time {
   p {
     padding: 0.5rem;
   }
-  .logo-osrd-big {
-    height: 13rem;
+  #logo-osrd-big {
+    height: 20rem;
     padding: 0.5rem;
   }
   .logo-date {
