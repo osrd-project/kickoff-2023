@@ -212,17 +212,17 @@ let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
 let seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
 // Set up flaps ////////////////////////////////////////////
-speed = 0.1; // seconds
-beginStr = `${hours}H${minutes}M${seconds}s`.toUpperCase().split("");
-endStr = `${days} JOURS`.toUpperCase().split("");
+const speed = 0.1; // seconds
+let beginStr = `${hours}:${minutes}:${seconds}s`.toUpperCase().split("");
+let endStr = `${days} JOURS`.toUpperCase().split("");
 // A-Z, 0-9, spaces only
 
-amountOfFlaps =
+let amountOfFlaps =
   beginStr.length >= endStr.length ? beginStr.length : endStr.length;
 
-div = document.querySelector(".center");
-html = "";
-for (var x = 0; x < amountOfFlaps; x++) {
+let div = document.querySelector(".center");
+let html = "";
+for (let x = 0; x < amountOfFlaps; x++) {
   html +=
     '<div class=splitflap><div class="top"></div><div class="bottom"></div><div class="nextHalf"></div><div class="nextFull"></div></div>';
 }
@@ -230,18 +230,18 @@ for (var x = 0; x < amountOfFlaps; x++) {
 div.innerHTML = html;
 
 // Set up more stuff ///////////////////////////////////////
-a1 = document.querySelectorAll(".top");
-a2 = document.querySelectorAll(".bottom");
-b1 = document.querySelectorAll(".nextFull");
-b2 = document.querySelectorAll(".nextHalf");
+const a1 = document.querySelectorAll(".top");
+const a2 = document.querySelectorAll(".bottom");
+const b1 = document.querySelectorAll(".nextFull");
+const b2 = document.querySelectorAll(".nextHalf");
 
-for (var x = 0; x < a1.length; x++) {
+for (let x = 0; x < a1.length; x++) {
   a2[x].style.animationDuration = speed + "s";
   b2[x].style.animationDuration = speed + "s";
 }
 
 // And even more ///////////////////////////////////////////
-char = [
+const char = [
   "A",
   "B",
   "C",
@@ -279,29 +279,30 @@ char = [
   "9",
   "0",
   " ",
+  ":",
 ];
 
 (strCount = []), (flag = []);
 
-for (var x = 0; x < amountOfFlaps; x++) {
+for (let x = 0; x < amountOfFlaps; x++) {
   if (beginStr.length != amountOfFlaps) {
-    for (var x = 0; x < amountOfFlaps - beginStr.length; x++) {
+    for (let x = 0; x < amountOfFlaps - beginStr.length; x++) {
       beginStr.push(" ");
     }
   } else if (endStr.length != amountOfFlaps) {
-    for (var x = 0; x < amountOfFlaps - endStr.length; x++) {
+    for (let x = 0; x < amountOfFlaps - endStr.length; x++) {
       endStr.push(" ");
     }
   }
 }
-for (var x = 0; x < amountOfFlaps; x++) {
+for (let x = 0; x < amountOfFlaps; x++) {
   strCount[x] = char.indexOf(beginStr[x]);
   (flag[x] = false), (flag2 = true);
 }
 
 // Flip them flaps /////////////////////////////////////////
 setInterval(function () {
-  for (var x = 0; x < amountOfFlaps; x++) {
+  for (let x = 0; x < amountOfFlaps; x++) {
     if (b1[x].innerHTML == endStr[x]) dontFlipIt(x);
     else flipIt(x);
 
