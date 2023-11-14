@@ -328,10 +328,11 @@ function flipIt(x) {
   b2[x].innerHTML = char[strCount[x]];
 
   a2[x].classList.remove("flip1");
-  a2[x].offsetWidth = a2[x].offsetWidth;
+  a2[x].offsetWidth;
   a2[x].classList.add("flip1");
+
   b2[x].classList.remove("flip2");
-  b2[x].offsetWidth = b2[x].offsetWidth;
+  b2[x].offsetWidth;
   b2[x].classList.add("flip2");
 
   if (strCount[x] > char.length - 2) strCount[x] = 0;
