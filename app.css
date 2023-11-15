@@ -127,6 +127,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 18px;
 }
 
 .section-three .part-two {
@@ -135,6 +136,7 @@ html {
   justify-content: center;
   align-items: flex-start;
   text-align: left;
+  font-size: 15px;
 }
 
 .section-three span {
@@ -434,8 +436,9 @@ time {
     padding: 0.5px;
   }
 
-  .section-three p {
+  .section-three .part-one {
     padding: 0px;
+    font-size: 15px;
   }
   .section-one p {
     font-size: 40px;
@@ -478,7 +481,7 @@ time {
 
   #first-text-container h2 {
     text-align: left;
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 0;
   }
 
