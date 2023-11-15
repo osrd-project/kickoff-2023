@@ -40,7 +40,6 @@ html {
 .text-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   width: 100vw;
 }
 
@@ -68,7 +67,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   height: 20vh;
 }
 
@@ -81,13 +79,11 @@ html {
 }
 
 #first-text-container h2 {
-  text-align: left;
   font-size: 2rem;
   line-height: 0;
 }
 
 #first-text-container p {
-  text-align: left;
   font-size: 2rem;
   padding: 0;
   line-height: 0;
