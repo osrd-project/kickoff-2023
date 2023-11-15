@@ -203,9 +203,9 @@ arrowDown.addEventListener("click", function () {
 });
 
 arrowUp.addEventListener("click", function () {
-  if (currentSection > 1 && currentSection <= 2) {
+  if (currentSection >= 1 && currentSection <= 2) {
     sectionOne.scrollIntoView({ behavior: "smooth" });
-  } else if (currentSection > 2 && currentSection <= 3) {
+  } else if (currentSection >= 2 && currentSection <= 3) {
     sectionTwo.scrollIntoView({ behavior: "smooth" });
   } else if (currentSection >= 3 && currentSection <= 4) {
     sectionThree.scrollIntoView({ behavior: "smooth" });
