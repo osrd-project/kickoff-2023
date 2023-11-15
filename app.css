@@ -12,22 +12,24 @@ body {
   margin: 0;
   font-family: "Avenir";
   overflow-x: hidden;
-  background: url(/public/assets/visuels/background_site_kickoff.webp) no-repeat center center fixed;
+  background: url(/public/assets/visuels/background_site_kickoff.webp) no-repeat
+    center center fixed;
   -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-body:after{
-  content:"";
-  position:fixed; /* stretch a fixed position to the whole screen */
-  top:0;
-  height:100vh; /* fix for mobile browser address bar appearing disappearing */
-  left:0;
-  right:0;
-  z-index:-1; /* needed to keep in the background */
-  background: url(/public/assets/visuels/background_site_kickoff.webp) center center;
+body:after {
+  content: "";
+  position: fixed; /* stretch a fixed position to the whole screen */
+  top: 0;
+  height: 100vh; /* fix for mobile browser address bar appearing disappearing */
+  left: 0;
+  right: 0;
+  z-index: -1; /* needed to keep in the background */
+  background: url(/public/assets/visuels/background_site_kickoff.webp) center
+    center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -109,6 +111,7 @@ html {
 }
 
 .section-two {
+  text-align: center;
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -851,7 +854,7 @@ time {
   #third-ornament-svg {
     position: absolute;
     right: -15px;
-    top: 4rem;
+    bottom: 10rem;
     height: 4rem;
     z-index: 1000;
     rotate: 110deg;
