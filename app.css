@@ -22,13 +22,12 @@ html {
   text-align: center;
   color: var(--color);
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100vw;
   background-image: url(./public/assets/visuels/background_site_kickoff.webp);
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .background-black {
@@ -175,6 +174,11 @@ html {
 
 .section-three span3 {
   font-size: 1.2rem;
+  color: #000;
+}
+
+.section-three span4 {
+  font-size: 1rem;
   color: #000;
 }
 
@@ -492,6 +496,10 @@ time {
     font-size: 13px;
   }
 
+  .section-three span4 {
+    font-size: 10px;
+  }
+
   .section-three .head {
     font-size: 30px;
     margin-top: none;
@@ -668,6 +676,10 @@ time {
 
   .section-three span3 {
     font-size: 13px;
+  }
+
+  .section-three span4 {
+    font-size: 10px;
   }
 
   .section-three .head {
