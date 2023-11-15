@@ -181,9 +181,6 @@ arrowDown.addEventListener("mouseenter", function () {
 arrowDown.addEventListener("mouseleave", function () {
   arrowDown.style.opacity = 1;
 });
-document.addEventListener("scroll", function () {
-  console.log("current section", currentSection);
-});
 
 document.addEventListener("scroll", function () {
   updateCurrentSection();
@@ -237,7 +234,6 @@ let today = new Date();
 const endDate = new Date(2023, 11, 13);
 let timeDifference = endDate.getTime() - today.getTime();
 let daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
-// let hours = Math.abs(today - endDate) / 36e5;
 
 let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
 
@@ -260,6 +256,27 @@ let beginStr = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`
   .split("");
 let endStr = `${days} JOURS`.toUpperCase().split("");
 // A-Z, 0-9, spaces only
+
+function updateCountdown() {
+  const now = new Date();
+  const endDate = new Date(2023, 11, 13); // Mois en JavaScript commencent à 0
+  const timeDifference = endDate - now;
+
+  const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  const hours = Math.floor(
+    (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+  // Affichez les valeurs jours, heures, minutes et secondes où vous voulez dans votre page HTML
+  console.log(
+    `Temps restant : ${days} jours, ${hours} heures, ${minutes} minutes, ${seconds} secondes`
+  );
+}
+
+// Mettez à jour le compte à rebours toutes les secondes
+setInterval(updateCountdown, 1000);
 
 let amountOfFlaps =
   beginStr.length >= endStr.length ? beginStr.length : endStr.length;
