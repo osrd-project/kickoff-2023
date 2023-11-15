@@ -12,11 +12,26 @@ body {
   margin: 0;
   font-family: "Avenir";
   overflow-x: hidden;
-  background-image: url(/public/assets/visuels/background_site_kickoff.webp);
+  background: url(/public/assets/visuels/background_site_kickoff.webp) no-repeat center center fixed;
+  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+body:after{
+  content:"";
+  position:fixed; /* stretch a fixed position to the whole screen */
+  top:0;
+  height:100vh; /* fix for mobile browser address bar appearing disappearing */
+  left:0;
+  right:0;
+  z-index:-1; /* needed to keep in the background */
+  background: url(/public/assets/visuels/background_site_kickoff.webp) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 html {
@@ -49,6 +64,7 @@ html {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
   overflow-x: hidden;
 }
 
