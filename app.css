@@ -33,8 +33,8 @@ html {
   background-color: black;
 }
 
-#padding-bot {
-  padding-bottom: 0.5rem;
+.text-wrapper {
+  align-items: center;
 }
 
 .section-one {
@@ -61,7 +61,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   height: 20vh;
 }
 
@@ -164,7 +164,7 @@ html {
   right: 0;
   display: flex;
   justify-content: flex-start;
-  padding: 1%;
+
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
@@ -268,13 +268,13 @@ time {
 }
 
 #titre {
-  padding-top: 10;
+  /* padding-top: 10; */
   height: 15%;
   opacity: 0;
 }
 
 #date {
-  padding-top: 10;
+  /* padding-top: 10; */
   height: 15%;
   opacity: 0;
 }
@@ -432,10 +432,6 @@ time {
 }
 
 @media screen and (max-width: 1024px) and (min-width: 700px) {
-  p {
-    padding: 0.5px;
-  }
-
   .section-three .part-one {
     padding: 0px;
     font-size: 15px;
@@ -459,11 +455,11 @@ time {
   }
   .logo-date {
     height: 2rem;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
   }
   .logo-titre {
     height: 4rem;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
   }
 
   #first-text-container {
@@ -471,7 +467,7 @@ time {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     height: 20vh;
   }
 
@@ -557,6 +553,41 @@ time {
     border-radius: 5px 5px 5px 5px;
     z-index: -3;
   }
+  #first-ornament-svg {
+    position: absolute;
+    left: -10px;
+    bottom: 100px;
+    height: 10vh;
+    width: 10vh;
+    opacity: 0;
+  }
+
+  #second-ornament-svg {
+    position: absolute;
+    right: -2%;
+    top: 50px;
+    height: 15vh;
+    width: 15vh;
+    opacity: 0;
+  }
+
+  #third-ornament-svg {
+    position: absolute;
+    right: -15px;
+    bottom: 50px;
+    height: 4rem;
+    z-index: 1000;
+    rotate: 110deg;
+  }
+  #fourth-ornament-svg {
+    position: absolute;
+    left: -10px;
+    bottom: 10px;
+    height: 4rem;
+    z-index: 1000;
+    rotate: 110deg;
+  }
+
   #fifth-ornament-svg {
     position: absolute;
     right: -7rem;
@@ -566,13 +597,13 @@ time {
     rotate: 110deg;
   }
 }
-@media screen and (max-width: 700px) and (min-width: 360px) {
+@media screen and (max-width: 700px) and (min-width: 200px) {
   p {
     padding: 0.5px;
   }
 
   .section-three p {
-    padding: 3px;
+    /* padding: 3px; */
     font-size: 15px;
   }
   .section-one p {
@@ -580,7 +611,7 @@ time {
   }
   .section-two p {
     font-size: 15px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
   }
 
   .section-two h2 {
@@ -591,16 +622,16 @@ time {
   }
 
   #logo-osrd-big {
-    height: 20rem;
-    padding: 0.5rem;
+    height: 13rem;
+    /* padding: 0.5rem; */
   }
   .logo-date {
     height: 2rem;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
   }
   .logo-titre {
     height: 4rem;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
   }
   h2 {
     font-size: 3rem;
@@ -611,8 +642,8 @@ time {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 20vh;
+    align-items: baseline;
+    height: 15vh;
   }
 
   #first-text-container span {
@@ -627,7 +658,7 @@ time {
 
   #first-text-container p {
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0;
     line-height: 0;
   }
@@ -697,10 +728,45 @@ time {
     border-radius: 5px 5px 5px 5px;
     z-index: -3;
   }
+  #first-ornament-svg {
+    position: absolute;
+    left: -10px;
+    bottom: 100px;
+    height: 6.5vh;
+    width: 6.5vh;
+    opacity: 0;
+  }
+
+  #second-ornament-svg {
+    position: absolute;
+    right: -2%;
+    top: 50px;
+    height: 12vh;
+    width: 12vh;
+    opacity: 0;
+  }
+
+  #third-ornament-svg {
+    position: absolute;
+    right: -15px;
+    bottom: 50px;
+    height: 4rem;
+    z-index: 1000;
+    rotate: 110deg;
+  }
+  #fourth-ornament-svg {
+    position: absolute;
+    left: -10px;
+    bottom: 10px;
+    height: 4rem;
+    z-index: 1000;
+    rotate: 110deg;
+  }
+
   #fifth-ornament-svg {
     position: absolute;
     right: -7rem;
-    top: 30%;
+    top: 50%;
     height: 8rem;
     z-index: 1000;
     rotate: 110deg;

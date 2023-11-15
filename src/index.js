@@ -11,7 +11,7 @@ function updateCurrentSection() {
     document.body.scrollTop +
       ((document.documentElement && document.documentElement.scrollTop) || 0);
 
-  currentSection = scrollPosition / viewportHeight + 1;
+  currentSection = Math.round(scrollPosition / viewportHeight) + 1;
 }
 
 anime({
@@ -218,10 +218,7 @@ function updateFooterVisibility() {
 
   let totalHeight = document.documentElement.scrollHeight;
 
-  if (
-    scrollPosition === 0 ||
-    scrollPosition + window.innerHeight >= totalHeight
-  ) {
+  if (scrollPosition === 0 || currentSection === 4) {
     footer.classList.add("show");
   } else {
     footer.classList.remove("show");
@@ -251,9 +248,16 @@ let hours = Math.floor(
 let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
 let seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
+const leadingZero = (num) => (num < 10 ? "0" : "") + num;
+let formattedHours = leadingZero(hours);
+let formattedMinutes = leadingZero(minutes);
+let formattedSeconds = leadingZero(seconds);
+
 // Set up flaps ////////////////////////////////////////////
 const speed = 0.1; // seconds
-let beginStr = `${hours}:${minutes}:${seconds}`.toUpperCase().split("");
+let beginStr = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`
+  .toUpperCase()
+  .split("");
 let endStr = `${days} JOURS`.toUpperCase().split("");
 // A-Z, 0-9, spaces only
 
