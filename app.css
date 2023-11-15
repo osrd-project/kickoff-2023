@@ -30,6 +30,7 @@ html {
   background-image: url(./public/assets/visuels/background_site_kickoff.webp);
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .background-black {
