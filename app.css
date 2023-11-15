@@ -356,7 +356,7 @@ time {
   position: relative;
   height: 50%;
   width: 100%;
-  background-color: #000;
+  background-color: #2a2a2a;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
   z-index: 0;
@@ -370,7 +370,7 @@ time {
   border-radius: 10px 10px 10px 10px;
   z-index: -1;
   background-color: black;
-  background-image: linear-gradient(#000, #000);
+  background-image: linear-gradient(#2a2a2a, #2a2a2a);
   transform-origin: center;
 }
 
@@ -383,7 +383,7 @@ time {
   border-radius: 10px 10px 0 0;
   z-index: 2;
   background-color: black;
-  background-image: linear-gradient(#000, #000);
+  background-image: linear-gradient(#2a2a2a, #2a2a2a);
   transform-origin: bottom;
 }
 
@@ -391,7 +391,7 @@ time {
   position: relative;
   height: 100%;
   width: 100%;
-  background-color: #000;
+  background-color: #2a2a2a;
   margin-top: -50%;
   border-radius: 10px 10px 10px 10px;
   z-index: -3;
@@ -410,7 +410,7 @@ time {
 @keyframes flip1 {
   0% {
     transform: rotateX(0deg);
-    background-color: #000;
+    background-color: #2a2a2a;
   }
   50% {
     transform: rotateX(90deg);
@@ -430,7 +430,7 @@ time {
   }
   100% {
     transform: rotateX(0deg);
-    background-color: #000;
+    background-color: #2a2a2a;
   }
 }
 
@@ -532,7 +532,7 @@ time {
     position: relative;
     height: 50%;
     width: 100%;
-    background-color: #000;
+    background-color: #2a2a2a;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     z-index: 0;
@@ -546,7 +546,7 @@ time {
     border-radius: 5px 5px 5px 5px;
     z-index: -1;
     background-color: black;
-    background-image: linear-gradient(#000, #000);
+    background-image: linear-gradient(#2a2a2a, #2a2a2a);
     transform-origin: center;
   }
 
@@ -559,7 +559,7 @@ time {
     border-radius: 5px 5px 0 0;
     z-index: 2;
     background-color: black;
-    background-image: linear-gradient(#242323, #000);
+    background-image: linear-gradient(#2a2a2a, #2a2a2a);
     transform-origin: bottom;
   }
 
@@ -567,7 +567,7 @@ time {
     position: relative;
     height: 100%;
     width: 100%;
-    background-color: #000;
+    background-color: #2a2a2a;
     margin-top: -50%;
     border-radius: 5px 5px 5px 5px;
     z-index: -3;
@@ -639,7 +639,7 @@ time {
   }
 
   #logo-osrd-big {
-    height: 13rem;
+    height: 12rem;
     /* padding: 0.5rem; */
   }
   .logo-date {
@@ -675,7 +675,7 @@ time {
 
   #first-text-container p {
     text-align: left;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0;
     line-height: 0;
   }
@@ -705,7 +705,7 @@ time {
     position: relative;
     height: 50%;
     width: 100%;
-    background-color: #000;
+    background-color: #2a2a2a;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     z-index: 0;
@@ -719,7 +719,7 @@ time {
     border-radius: 5px 5px 5px 5px;
     z-index: -1;
     background-color: black;
-    background-image: linear-gradient(#000, #000);
+    background-image: linear-gradient(#2a2a2a, #2a2a2a);
     transform-origin: center;
   }
 
@@ -732,7 +732,7 @@ time {
     border-radius: 5px 5px 0 0;
     z-index: 2;
     background-color: black;
-    background-image: linear-gradient(#242323, #000);
+    background-image: linear-gradient(#2a2a2a, #2a2a2a);
     transform-origin: bottom;
   }
 
@@ -740,7 +740,7 @@ time {
     position: relative;
     height: 100%;
     width: 100%;
-    background-color: #000;
+    background-color: #2a2a2a;
     margin-top: -50%;
     border-radius: 5px 5px 5px 5px;
     z-index: -3;
@@ -787,6 +787,10 @@ time {
     height: 8rem;
     z-index: 1000;
     rotate: 110deg;
+  }
+
+  .container-one {
+    height: 40vh;
   }
 }
 
