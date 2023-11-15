@@ -68,6 +68,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: baseline;
+  align-items: center;
   height: 20vh;
 }
 
@@ -78,6 +79,9 @@ html {
 #first-text-container h2 {
   font-size: 2rem;
   line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: left;
 }
 
@@ -85,6 +89,9 @@ html {
   font-size: 1.5rem;
   padding: 0;
   line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: left;
 }
 
@@ -131,6 +138,8 @@ html {
   text-align: center;
   background: #786abf;
   overflow-x: hidden;
+  padding: 1rem;
+  overflow-y: hidden;
 }
 
 .section-three .part-one {
@@ -153,11 +162,12 @@ html {
 
 .section-three .head {
   font-size: 3rem;
+  margin-top: 1rem;
 }
 
 .section-three span {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .section-three span2 {
@@ -246,10 +256,6 @@ h1 {
 
 h2 {
   font-size: 3rem;
-}
-
-h3 {
-  font-size: 1.5rem;
 }
 
 time {
@@ -466,10 +472,6 @@ time {
 }
 
 @media screen and (max-width: 1024px) and (min-width: 700px) {
-  .section-three .part-one {
-    padding: 0px;
-    font-size: 15px;
-  }
   .section-one p {
     font-size: 20px;
   }
@@ -479,9 +481,27 @@ time {
   .section-two h2 {
     font-size: 2rem;
   }
-  .section-three p {
-    font-size: 20px;
+  .section-three span {
+    font-size: 15px;
   }
+
+  .section-three span2 {
+    font-size: 13px;
+  }
+
+  .section-three span3 {
+    font-size: 13px;
+  }
+
+  .section-three .head {
+    font-size: 30px;
+    margin-top: none;
+  }
+
+  time {
+    font-size: 15px;
+  }
+
   .section-four p {
     font-size: 40px;
   }
@@ -639,9 +659,29 @@ time {
     padding: 0.5px;
   }
 
-  .section-three p {
-    /* padding: 3px; */
+  .section-three span {
     font-size: 15px;
+  }
+
+  .section-three span2 {
+    font-size: 13px;
+  }
+
+  .section-three span3 {
+    font-size: 13px;
+  }
+
+  .section-three .head {
+    font-size: 30px;
+    margin-top: none;
+  }
+
+  time {
+    font-size: 15px;
+  }
+
+  .section-three p {
+    font-size: 12px;
   }
   .section-one p {
     font-size: 20px;
