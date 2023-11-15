@@ -3,8 +3,8 @@
 }
 
 @font-face {
-  font-family: 'Avenir';
-  src: url('/public/fonts/Avenir/avenir-medium.woff') format('woff');
+  font-family: "Avenir";
+  src: url("/public/fonts/Avenir/avenir-medium.woff") format("woff");
 }
 
 body {
@@ -38,7 +38,10 @@ html {
 }
 
 .text-wrapper {
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100vw;
 }
 
 .section-one {
@@ -65,8 +68,12 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: baseline;
+  align-items: flex-start;
   height: 20vh;
+}
+
+#first-text-container h2 {
+  align-items: center;
 }
 
 #first-text-container span {
@@ -182,7 +189,7 @@ html {
 }
 .footer img {
   height: 2rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .footer.show {
@@ -264,8 +271,8 @@ time {
 #fourth-ornament-svg {
   position: absolute;
   left: -10px;
-  bottom: 10px;
-  height: 4rem;
+  top: 10rem;
+  height: 6rem;
   z-index: 1000;
   rotate: 110deg;
 }
@@ -446,7 +453,7 @@ time {
     font-size: 15px;
   }
   .section-one p {
-    font-size: 40px;
+    font-size: 20px;
   }
   .section-two p {
     font-size: 20px;
@@ -586,8 +593,8 @@ time {
   #third-ornament-svg {
     position: absolute;
     right: -15px;
-    bottom: 50px;
-    height: 4rem;
+    bottom: 6rem;
+    height: 8rem;
     z-index: 1000;
     rotate: 110deg;
   }
@@ -759,7 +766,7 @@ time {
   #third-ornament-svg {
     position: absolute;
     right: -15px;
-    bottom: 50px;
+    top: 4rem;
     height: 4rem;
     z-index: 1000;
     rotate: 110deg;

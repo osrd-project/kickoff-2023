@@ -14,6 +14,12 @@ function updateCurrentSection() {
   currentSection = Math.round(scrollPosition / viewportHeight) + 1;
 }
 
+updateCurrentSection();
+
+document.addEventListener("scroll", function () {
+  console.log("current section", currentSection);
+});
+
 anime({
   targets: ["#logo-path1"],
   strokeDashoffset: [anime.setDashoffset, 0],
@@ -268,11 +274,6 @@ function updateCountdown() {
   );
   const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-
-  // Affichez les valeurs jours, heures, minutes et secondes où vous voulez dans votre page HTML
-  console.log(
-    `Temps restant : ${days} jours, ${hours} heures, ${minutes} minutes, ${seconds} secondes`
-  );
 }
 
 // Mettez à jour le compte à rebours toutes les secondes
