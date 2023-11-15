@@ -12,6 +12,11 @@ body {
   margin: 0;
   font-family: "Avenir";
   overflow-x: hidden;
+  background-image: url(/public/assets/visuels/background_site_kickoff.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 html {
@@ -23,11 +28,6 @@ html {
   color: var(--color);
   height: 100%;
   width: 100vw;
-  background-image: url(./public/assets/visuels/background_site_kickoff.webp);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 .background-black {
@@ -121,7 +121,7 @@ html {
   align-items: center;
   justify-content: center;
   background: #13120d;
-  overflow-y : hidden
+  overflow-y: hidden;
 }
 
 .section-three {
