@@ -21,8 +21,7 @@ html {
 .background {
   text-align: center;
   color: var(--color);
-  height: 100%;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +30,6 @@ html {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  overflow: scroll;
 }
 
 .background-black {
@@ -47,7 +45,7 @@ html {
 
 .section-one {
   position: relative;
-  height: 100%;
+  height: 100vh;
   width: 100vw;
   color: white;
   justify-content: center;
@@ -61,7 +59,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 50vh;
 }
 
 #first-text-container {
@@ -70,7 +68,7 @@ html {
   flex-direction: column;
   justify-content: baseline;
   align-items: center;
-  height: 20%;
+  height: 20vh;
 }
 
 #first-text-container span {
@@ -98,14 +96,14 @@ html {
 
 .section-two {
   position: relative;
-  height: 100%;
+  height: 100vh;
   width: 100vw;
   color: white;
   overflow-x: hidden;
 }
 
 .section-two .part-one {
-  height: 40%;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,7 +117,7 @@ html {
 }
 
 .section-two .part-two {
-  height: 60%;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,7 +128,7 @@ html {
 
 .section-three {
   position: relative;
-  height: 100%;
+  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -186,13 +184,13 @@ html {
 }
 
 .section-four {
-  height: 100%;
+  height: 100vh;
   width: 100vw;
   color: white;
 }
 
 .container-four {
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -272,8 +270,8 @@ time {
   position: absolute;
   left: -10px;
   bottom: 100px;
-  height: 10%;
-  width: 10%;
+  height: 10vh;
+  width: 10vh;
   opacity: 0;
 }
 
@@ -281,8 +279,8 @@ time {
   position: absolute;
   right: -2%;
   top: 50px;
-  height: 15%;
-  width: 15%;
+  height: 15vh;
+  width: 15vh;
   opacity: 0;
 }
 
@@ -321,14 +319,14 @@ time {
   opacity: 0;
 }
 #arrow-down {
-  height: 3.8%;
+  height: 3.8vh;
   opacity: 1;
   transition: opacity 0.1s ease-in-out;
   cursor: pointer;
   padding-right: 0.5rem;
 }
 #arrow-up {
-  height: 3.8%;
+  height: 3.8vh;
   transition: opacity 0.1s ease-in-out;
   cursor: pointer;
   padding-right: 0.5rem;
@@ -527,7 +525,7 @@ time {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    height: 20%;
+    height: 20vh;
   }
 
   #first-text-container span {
@@ -616,8 +614,8 @@ time {
     position: absolute;
     left: -10px;
     bottom: 100px;
-    height: 10%;
-    width: 10%;
+    height: 10vh;
+    width: 10vh;
     opacity: 0;
   }
 
@@ -625,8 +623,8 @@ time {
     position: absolute;
     right: -2%;
     top: 50px;
-    height: 15%;
-    width: 15%;
+    height: 15vh;
+    width: 15vh;
     opacity: 0;
   }
 
@@ -720,7 +718,7 @@ time {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    height: 15%;
+    height: 15vh;
   }
 
   #first-text-container span {
@@ -809,8 +807,8 @@ time {
     position: absolute;
     left: -10px;
     bottom: 100px;
-    height: 6.5%;
-    width: 6.5%;
+    height: 6.5vh;
+    width: 6.5vh;
     opacity: 0;
   }
 
@@ -818,8 +816,8 @@ time {
     position: absolute;
     right: -2%;
     top: 50px;
-    height: 12%;
-    width: 12%;
+    height: 12vh;
+    width: 12vh;
     opacity: 0;
   }
 
@@ -850,7 +848,7 @@ time {
   }
 
   .container-one {
-    height: 40%;
+    height: 40vh;
   }
 }
 
