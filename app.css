@@ -149,13 +149,32 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  text-align: left;
-  font-size: 15px;
+  align-items: justify;
+  text-align: justify;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+}
+
+.section-three .head {
+  font-size: 3rem;
 }
 
 .section-three span {
   color: black;
+  font-size: 1.5rem;
+}
+
+.section-three span2 {
+font-size: 1.5rem;
+}
+
+.section-three span3 {
+  font-size: 1.2rem;
+  color: #000;
+  }
+
+.section-three p {
+  font-size: 1.2rem;
 }
 
 .section-four {
@@ -209,8 +228,7 @@ html {
 }
 
 .logo-place {
-  height: 20rem;
-  border: 1px white;
+  height: 18rem;
 }
 
 .logo-metro {
@@ -232,6 +250,10 @@ h1 {
 
 h2 {
   font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 time {
