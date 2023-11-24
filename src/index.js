@@ -237,7 +237,7 @@ document.addEventListener("scroll", function () {
 // Rebours
 
 let today = new Date();
-const endDate = new Date(2023, 11, 13);
+const endDate = new Date(2023, 11, 13, 14, 0, 0);
 let timeDifference = endDate.getTime() - today.getTime();
 let daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
