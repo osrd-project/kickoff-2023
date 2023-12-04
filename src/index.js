@@ -251,6 +251,7 @@ let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
 let seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
 const leadingZero = (num) => (num < 10 ? "0" : "") + num;
+let formattedDays = leadingZero(days);
 let formattedHours = leadingZero(hours);
 let formattedMinutes = leadingZero(minutes);
 let formattedSeconds = leadingZero(seconds);
@@ -260,7 +261,7 @@ const speed = 0.1; // seconds
 let beginStr = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`
   .toUpperCase()
   .split("");
-let endStr = `${days} JOURS`.toUpperCase().split("");
+let endStr = `${formattedDays} JOURS`.toUpperCase().split("");
 // A-Z, 0-9, spaces only
 
 function updateCountdown() {
