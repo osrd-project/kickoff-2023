@@ -269,7 +269,7 @@ function updateCountdown() {
   beginStr = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`
     .toUpperCase()
     .split("");
-  endStr = `${formattedDays} JOURS`.toUpperCase().split("");
+  endStr = `${formattedDays} JOUR`.toUpperCase().split("");
   // A-Z, 0-9, spaces only
 }
 
