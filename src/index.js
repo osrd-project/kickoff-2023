@@ -236,49 +236,46 @@ document.addEventListener("scroll", function () {
 
 // Rebours
 
-let today = new Date();
-const endDate = new Date(2023, 11, 13, 14, 0, 0);
-let timeDifference = endDate.getTime() - today.getTime();
-let daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
-
-let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-
-// Calculate hours, minutes, and seconds
-let hours = Math.floor(
-  (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-);
-let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-let seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-
-const leadingZero = (num) => (num < 10 ? "0" : "") + num;
-let formattedDays = leadingZero(days);
-let formattedHours = leadingZero(hours);
-let formattedMinutes = leadingZero(minutes);
-let formattedSeconds = leadingZero(seconds);
-
-// Set up flaps ////////////////////////////////////////////
 const speed = 0.1; // seconds
-let beginStr = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`
-  .toUpperCase()
-  .split("");
-let endStr = `${formattedDays} JOURS`.toUpperCase().split("");
-// A-Z, 0-9, spaces only
+let today;
+let endDate;
+let timeDifference;
+let formattedDays;
+let formattedHours;
+let formattedMinutes;
+let formattedSeconds;
+let beginStr;
+let endStr;
 
 function updateCountdown() {
-  const now = new Date();
-  const endDate = new Date(2023, 11, 13); // Mois en JavaScript commencent à 0
-  const timeDifference = endDate - now;
-
+  today = new Date();
+  endDate = new Date(2023, 11, 13, 14, 0, 0);
+  timeDifference = endDate.getTime() - today.getTime();
   const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
   const hours = Math.floor(
     (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
   );
   const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+  const leadingZero = (num) => (num < 10 ? "0" : "") + num;
+  formattedDays = leadingZero(days);
+  formattedHours = leadingZero(hours);
+  formattedMinutes = leadingZero(minutes);
+  formattedSeconds = leadingZero(seconds);
+
+  // Set up flaps ////////////////////////////////////////////
+
+  beginStr = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`
+    .toUpperCase()
+    .split("");
+  endStr = `${formattedDays} JOURS`.toUpperCase().split("");
+  // A-Z, 0-9, spaces only
 }
 
 // Mettez à jour le compte à rebours toutes les secondes
-setInterval(updateCountdown, 1000);
+updateCountdown();
+setInterval(updateCountdown, 13000);
 
 let amountOfFlaps =
   beginStr.length >= endStr.length ? beginStr.length : endStr.length;
@@ -364,7 +361,7 @@ for (let x = 0; x < amountOfFlaps; x++) {
   strCount[x] = char.indexOf(beginStr[x]);
   (flag[x] = false), (flag2 = true);
 }
-
+console.log(speed, "speed ---");
 // Flip them flaps /////////////////////////////////////////
 setInterval(function () {
   for (let x = 0; x < amountOfFlaps; x++) {
