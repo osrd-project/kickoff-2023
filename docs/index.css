@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Avenir;
+  src: url(avenir-medium.woff) format("woff");
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url(background.webp) 50% / cover no-repeat
+    fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Avenir;
+  overflow-x: hidden;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+a:hover {
+  opacity: 0.5;
+}
+a img {
+  width: 25rem;
+  margin-bottom: 1rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+@media screen and (width < 768px) {
+  h1 {
+    font-size: 1.25rem;
+  }  
+  a img {
+    width: 15rem;
+  }
+}
